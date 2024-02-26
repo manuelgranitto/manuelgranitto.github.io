@@ -1,1 +1,0 @@
-# manuelgranitto.github.io
