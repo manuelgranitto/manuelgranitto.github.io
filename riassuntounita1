@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html>
+<h2>Indice</h2>
+<ul>
+  <li>Il Processore</li>
+  <li>CLOCK</li>
+  <li>I REGISTRI</li>
+   <li>LA VELOCITÀ DI ELABORAZIONE</li>
+    <li>I TIPI DI BUS</li>
+    <li>OTTIMIZZARE LE PRESTAZIONI DEI BUS</li>
+     <li>FUNZIONI DELLA CACHE</li>
+       <li>GESTIONE CACHE</li>
+        <li>TIPOLOGIE DI MEMORIE</li>
+          <li>MEMORIE MAGNETICHE</li>
+            <li>LE MEMORIE OTTICHE</li>
+              <li>LA MEMORIA VIRTUALE</li>
+                <li>LE PERIFERICHE</li>
+                   <li>LE PERIFERICHE GRAFICHE</li>
+                    <li>LE PERIFERICHE DI OUTPUT I VIDEO</li>
+                      <li>LE PERIFERICHE INPUT/OUTPUT</li>
+                        <li>INTERFACCIAMENTO PERIFERICHE</li>
+                          <li>COLLEGAMENTO CON MEMORIA DI MASSA</li> 
+                            <li>COLLEGAMENTO CON VIDEO</li>
+                              <li>LIMITI DELL ARCHITETTURA NON VON NEUMANN</li>
+                                <li>MODELLO ELABORAZIONE NON VON NEUMAN</li>
+</ul>
+
+<head>
+    <title>Il Processore</title> <style>
+   h1 {
+    color:green;;
+  }
+</style>
+ <style>
+  
+ body {
+        background-color: #e0f2f1;
+      color: black;
+                                 }
+  
+     
+ </style>
+     <body>
+    <h1>Il Processore</h1> 
+    <p>Il processore, noto anche come CPU (Central Processing Unit), è l'elemento cruciale di un computer, responsabile
+ dell'elaborazione dei dati secondo istruzioni specifiche. È composto da tre parti principali: l'unità di controllo (CU),
+l'unità aritmetico-logica (ALU) e i registri interni. La sua capacità di processare  
+grandi quantità di dati deriva dalla sua velocità nell'esecuzione di operazioni semplici con circuiti veloci.
+I moderni microprocessori incorporano tutte le funzioni della CPU. Le operazioni principali includono somma,
+spostamento dati e gestione di memoria e periferiche.</p> <br>
+    <img src="https://superpromo-shop.it/cdn/shop/articles/Cosa-sono-e-differenza-tra-processore-AI-e-processore-normale-in-informatica-960x502.jpg?v=1648294312">
+
+    <h1> CLOCK</h1>
+    <p>IL CLOCK 
+
+Il processore utilizza un orologio interno per sincronizzare le operazioni e la comunicazione con altri dispositivi. 
+La frequenza del clock, misurata in GHz, determina la velocità di trasmissione dei segnali e il ritmo delle operazioni. Alcune operazioni richiedono 
+più cicli di clock, e una frequenza più alta consente l'esecuzione di più istruzioni nell'unità di tempo.</p> <br>
+
+
+    <h1> I REGISTRI </h1>
+    <p>I REGISTRI 
+
+I registri sono memorie ausiliarie cruciali nell'architettura dei computer, capaci di memorizzare e restituire informazioni per l'elaborazione successiva.
+ Presentano varie tipologie, ma quelli all'interno della CPU sono particolarmente importanti per memorizzare dati e istruzioni. Tecnicamente, un registro è 
+ composto da elementi fisici bistabili, noti come bit, e la loro configurazione rappresenta l'informazione memorizzata. Le operazioni di scrittura e lettura possono 
+ coinvolgere tutti i bit contemporaneamente (registro parallelo) o uno alla volta (registro seriale).
+ Gli elaboratori contengono diversi registri, ognuno con una specifica funzione e utilizzato in momenti specifici dell'elaborazione <br>
+    <img src="https://while1qiplusplus.files.wordpress.com/2012/01/untitled6.png">
+
+
+
+    <h1> LA VELOCITÀ DI ELABORAZIONE</h1>
+    <p>LA VELOCITÀ DI ELABORAZIONE 
+
+
+
+In breve, la velocità di elaborazione della CPU dipende da cinque fattori principali: il numero di bit che può processare simultaneamente, la frequenza del clock, la struttura interna che ottimizza le operazioni, il numero di core integrati e la velocità delle periferiche collegate. L'uso di una architettura a 64 bit consente di elaborare operazioni complesse più efficientemente rispetto 
+a una a 32 bit. Un aumento della frequenza del clock accelera le operazioni, ma è limitato dal surriscaldamento. La struttura interna ottimizzata e l'integrazione di più core migliorano le prestazioni. <br>
+ Le periferiche più lente possono rallentare l'elaborazione, ma la cache interna aiuta a mitigare questo problema, sebbene possa essere costosa e occupare spazio. <br>
+
+    <img src="https://lh4.googleusercontent.com/proxy/sZG0_sEaCTcBHLzrE9rHK2UH6iCcsSQqJVO6iWHRIgEVnuWoVd5VwAiSFPJ9YR9hCH_zD6rx-pXeJIBN2fjer_kvmxtkaY_Xrz4eUYTllFg">
+
+
+    <h1> I TIPI DI BUS</h1>
+    <p> I TIPI DI BUS. 
+
+
+
+In un elaboratore, le componenti comunicano tramite cavi multipli chiamati bus, che collegano il processore, la memoria centrale e le periferiche per lo scambio di informazioni e comandi.<br>
+ Il bus di sistema, costituito da un centinaio di fili sulla scheda madre, include tre tipi principali di bus: bus dati, bus indirizzi e bus di controllo, che gestiscono rispettivamente il trasferimento dei dati,<br> 
+degli indirizzi di memoria e dei segnali di controllo tra le varie componenti.<br>
+<br>
+<br>
+
+BUS DATI<br>
+<br>
+
+
+Il bus di sistema è un canale attraverso cui le componenti dell'elaboratore scambiano dati e istruzioni. Il numero di fili che lo compongono dipende dal parallelismo dati del microprocessore, solitamente 32 o 64 bit.<br> 
+Un Data bus a 32 bit consente di trasferire 4 byte con una sola operazione. Il bus è bidirezionale, permettendo il flusso dei dati sia da che verso il microprocessore.<br>
+
+
+
+BUS INDIRIZZI<br> 
+<br>
+
+
+Il bus indirizzi è utilizzato dal microprocessore per generare e gestire gli indirizzi delle celle di memoria e delle periferiche. Trasporta i codici binari che identificano le locazioni di memoria o le periferiche.<br>
+ È monodirezionale, con segnali generati solo dal microprocessore. Il numero di fili dipende dal parallelismo dati e può generare una quantità di indirizzi superiore alla combinazione di n bit, consentendo di indirizzare un <br>
+numero maggiore di locazioni di memoria. Ad esempio, con 16 bit è possibile indirizzare 64 kB di locazioni.<br>
+
+<br>
+
+BUS DI CONTROLLO E CONTROLLER<br> 
+
+
+
+Il bus di controllo è responsabile di coordinare le operazioni del sistema e di comunicare le istruzioni su cosa fare in un dato momento. È meno omogeneo rispetto ai bus di dati e indirizzi,<br>
+poiché le funzionalità dei suoi fili dipendono dalle periferiche coinvolte. Esistono varie modalità di connessione tra periferiche e bus di controllo per ottimizzare il trasferimento dei dati.<br>
+I segnali sul bus di controllo sono in parte unidirezionali e in parte bidirezionali, ma ogni linea è unidirezionale. Il bus controller aiuta a ridurre i consumi elettrici fornendo tensioni e correnti adeguate<br>
+per gestire i segnali elettrici. Sulla scheda madre sono presenti più control bus specifici per adattare le informazioni alle varie periferiche.<br>
+I collegamenti fondamentali includono BUSY per indicare lo stato di occupazione della<br>
+periferica, IRQ per segnalare al microprocessore la necessità di elaborazione basata su eventi, e IORD/IOWR per indicare se la periferica è in fase di lettura o scrittura.<br>
+
+In breve, la velocità di elaborazione della CPU dipende da cinque fattori principali: il numero di bit che può processare simultaneamente, la frequenza del clock, <br> 
+la struttura interna che ottimizza le operazioni, il numero di core integrati e la velocità delle periferiche collegate. L'uso di una architettura a 64 bit consente di elaborare operazioni complesse più efficientemente rispetto <br>
+a una a 32 bit. Un aumento della frequenza del clock accelera le operazioni, ma è limitato dal surriscaldamento. La struttura interna ottimizzata e l'integrazione di più core migliorano le prestazioni. 
+Le periferiche più lente possono rallentare l'elaborazione, ma la cache interna aiuta a mitigare questo problema, sebbene possa essere costosa e occupare spazio. <br>
+
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgSeTh1be0UO6rOd0MyJwVZdCnAqtA9OUZgKRjyT6VTw&s">
+
+
+
+    <h1>OTTIMIZZARE LE PRESTAZIONI DEI BUS  </h1>
+    <p>OTTIMIZZARE LE PRESTAZIONI DEI BUS 
+
+
+
+per ottimizzare le prestazioni dei bus si Introduce il concetto di Bus mastering, in cui dispositivi specializzati gestiscono i trasferimenti dati senza richiedere 
+ l'intervento diretto della CPU, con il DMA (Direct Memory Access) come esempio principale. Descrive anche la suddivisione del bus in bus distinti per dispositivi veloci o lenti, 
+gestiti da un chipset dedicato. Il chipset, composto da Northbridge e Southbridge, facilita la comunicazione tra CPU e periferiche attraverso il Front-Side Bus (FSB).
+<br>
+NORTHBRIDGE E SOUTHBRIDGE <br>
+<br>
+Il paragrafo descrive le funzioni di due componenti fondamentali di un chipset: il Northbridge e il Southbridge. Il Northbridge, 
+o Memory Controller Hub (MCH), gestisce le comunicazioni con le periferiche più veloci come la RAM e le schede video esterne. 
+Le funzioni dell'MCH sono spesso integrate nel processore per migliorare le prestazioni e ridurre i costi. Il Southbridge, o I/O Controller Hub (ICH), 
+gestisce le comunicazioni con le periferiche relativamente più lente e adatta i segnali del microprocessore alle varie periferiche che adottano standard differenti. Inoltre, 
+il paragrafo menziona il Back Side Bus (BSB), che collega la CPU a una memoria cache esterna alla CPU sulla scheda madre,
+ utile per migliorare le prestazioni della CPU quando la cache interna non è sufficiente.<br>
+
+
+    <img src="https://ennebi.solira.org/pcinside/mother.jpg">
+  </body>
+
+
+    <h1>FUNZIONI DELLA CACHE </h1>
+    <p> FUNZIONI DELLA CACHE 
+
+
+
+La memoria cache è una memoria nascosta gestita direttamente dal microprocessore tramite il cache controller.
+ È più veloce della RAM, fungendo da memoria intermedia per conservare i dati utilizzati di frequente, migliorando così le prestazioni della CPU.
+ Inizialmente esterna al microprocessore, è ora integrata all'interno della CPU, divisa in tre livelli: L1, L2 e L3. Nei moderni processori multi-core, ogni core ha L1 e L2 private,
+ mentre L3 è condivisa tra i core. L'aumento della capacità dalla L1 alla L3 comporta una diminuzione della velocità.<br>
+
+
+
+
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8wyQYqApjasRjQ-ATUSRaC9tJ82UXmDjEN2fBxuHY2A&s">
+
+
+
+    <h1>GESTIONE CACHE  </h1>
+    <p> GESTIONE CACHE 
+
+
+
+Il rapporto tra cache hit e accessi totali, noto come hit rate, è cruciale per valutare l'efficacia della cache. Quando la cache è piena,
+si adotta il criterio LRU (Least Recently Used) per liberare spazio, eliminando i dati meno recentemente utilizzati. È importante mantenere la coerenza tra cache e memoria centrale,
+ implementando strategie come write-through (aggiornamento immediato della memoria principale) o write-back (aggiornamento ritardato al rilascio dalla cache). Nei sistemi multiprocessore,
+ i protocolli di coerenza garantiscono l'aggiornamento dei dati tra cache e memoria centrale. Il posizionamento dei dati nella cache può essere libero o vincolato,
+ con il secondo metodo che favorisce trasferimenti più veloci ma aumenta il rischio di sovraffollamento.<br>
+
+
+
+
+    <h1> </h1>
+    <p> MEMORIA CENTRALE CARATTERISTICHE <br>
+
+
+<br>
+La memoria centrale, o RAM (Random Access Memory), è cruciale per l'architettura di un computer.
+ Conserva temporaneamente il programma in esecuzione e tutte le informazioni necessarie alla CPU. Caratteristiche principali includono la sua struttura a milioni di celle, 
+ciascuna contenente lo stato di un bit, organizzate in righe e colonne. La RAM offre accesso diretto a ogni byte, il che significa che l'accesso ai dati non dipende dalla loro posizione.
+ I dati possono essere letti e scritti e sono mantenuti solo quando la memoria è alimentata, con la perdita dei dati al momento dello spegnimento del computer.<br>
+
+ORGANIZZAZIONE DELLA MEMORIA CENTRALE <br>
+
+<br>
+
+Ogni cella di memoria ha un indirizzo univoco che indica la sua posizione all'interno della memoria, espressa tramite una matrice di righe e colonne.
+ Gli indirizzi sono spesso espressi in esadecimale per permettere un maggiore numero di indirizzamenti. La capacità della memoria è misurata in byte,
+con multipli binari come il kibibyte (KiB), il mebibyte (MiB) e il gibibyte (GiB). Ad esempio, se un computer ha 4 GiB di RAM, significa che la sua memoria centrale contiene circa 4 miliardi di byte.<br>
+
+OPERAZIONI DELLA MEMORIA CENTRALE<br> 
+
+<br>
+
+Le operazioni di lettura e scrittura della memoria centrale coinvolgono diverse fasi. Per la lettura,
+ il microprocessore genera l'indirizzo della cella desiderata, che viene decodificato internamente alla memoria,
+ la quale trasferisce i dati richiesti al Data bus. Per la scrittura, il processo è simile, ma con il microprocessore che immette i dati da scrivere sul Data bus. 
+Il controllo degli errori è fondamentale, con bit aggiuntivi interni alla memoria per verificarne lo stato. Gli errori possono causare malfunzionamenti gravi, come il blocco dell'esecuzione del programma o del sistema operativo,
+ richiedendo spesso la sostituzione del modulo danneggiato.<br>
+
+
+
+
+    <img src="https://etc.vecla.it/wikidol0809/img/w_ram.jpg">
+ 
+
+
+    <h1>TIPOLOGIE DI MEMORIE  </h1>
+    <p> TIPOLOGIE DI MEMORIE 
+
+
+
+Le memorie si distinguono in volatili, che mantengono le informazioni solo quando sono alimentate, e permanenti, che conservano i dati anche senza corrente.
+ La prestazione delle memorie si valuta in base alla latenza e alla velocità di trasferimento. Le memorie volatili includono In sintesi,
+ la DRAM offre una maggiore capacità di archiviazione e una maggiore densità a un costo inferiore, ma richiede un refresh periodico. D’altra parte,
+ la SRAM è più veloce e richiede meno energia, ma è più costosa e meno densa, quindi viene utilizzata principalmente come memoria cache per migliorare le prestazioni del sistema.
+costantemente alimentate. Le memorie permanenti, come le ROM, vengono programmate durante la fabbricazione e contengono programmi di avvio del sistema.
+ Le PROM possono essere programmate dall'utente, mentre le EPROM possono essere cancellate e riprogrammate un numero limitato di volte.<br>
+
+LE MEMORIE SECONDARIE L EVOLUZIONE<br> 
+<br>
+
+
+Le memorie secondarie, chiamate anche memorie di massa, sono utilizzate per conservare informazioni permanentemente e hanno una capacità di memoria elevata,
+ ma tempi di accesso più lunghi rispetto alla RAM. Tradizionalmente, i dischi magnetici e ottici sono stati i principali supporti per le memorie secondarie, ma negli ultimi anni,
+ sono emerse nuove soluzioni di archiviazione come le memorie flash. Queste ultime hanno guadagnato popolarità grazie alla crescente domanda di memorie portatili e ai loro costi inferiori. 
+Inoltre, i servizi di cloud storage offrono un'alternativa conveniente per l'archiviazione remota dei dati, consentendo l'accesso da qualsiasi luogo connesso a Internet. Tuttavia,
+ ci sono ancora preoccupazioni riguardo alla privacy e alla sicurezza dei dati archiviati nei servizi cloud.<br>
+
+<br>
+
+
+
+    <img src="https://thumbnails.genial.ly/5ff489495480c75fb85adc1b/pdf/4560dac8-4ed7-4592-bdb3-3cc8edb15c81.png">
+
+
+
+    <h1>MEMORIE MAGNETICHE  </h1>
+    <p> MEMORIE MAGNETICHE 
+
+Le memorie magnetiche sfruttano la polarizzazione magnetica per memorizzare dati.
+ Ogni bit è rappresentato dalla direzione di magnetizzazione di una cella magnetizzabile sul supporto.
+ La lettura e la scrittura avvengono attraverso una testina vicina al supporto, che può essere sdoppiata per separare le funzioni di lettura e scrittura.<br>
+
+HARD DISK<br> 
+<br>
+Il disco magnetico, noto come hard disk, è una memoria ad accesso diretto composta da piatti rigidi con materiale ferromagnetico depositato su di essi.
+ I piatti sono suddivisi in tracce concentriche chiamate tracce o piste e in settori di lunghezza fissa.
+ Il disco è facilmente indirizzabile a livello di traccia e settore,
+ consentendo un accesso diretto. La testina mobile legge il disco mentre ruota a una velocità costante. 
+Il tempo di accesso dipende dalla posizione della testina e dalla
+ velocità di rotazione del disco.
+ Per migliorare i tempi di accesso, è presente una memoria cache sul circuito di controllo dell'hard disk.
+ I collegamenti avvengono principalmente tramite gli standard EIDE (in disuso) e SATA per il System bus, 
+mentre per gli hard disk esterni si utilizzano SATA e USB.
+<br>
+LE MEMORIE FLASH <br>
+<br>
+
+
+Le memorie flash, come gli SSD (Solid State Drive) e le Pen drive,
+ sono costituite da circuiti elettronici semiconduttori che consentono di mantenere i dati anche senza alimentazione.
+ Gli SSD, utilizzando la tecnologia NAND, offrono tempi di accesso molto bassi e maggiori prestazioni rispetto agli hard disk tradizionali.
+ Le Pen drive, con capacità ridotte, sono estremamente robuste, facili da trasportare e hanno un costo basso. Tuttavia, 
+la loro durata è limitata a causa dell'usura durante le fasi di scrittura.
+<br>
+LA SMART CARD <br>
+
+<br>
+
+La smart card è una scheda di plastica con microprocessore e memoria flash,
+ simile a una carta di credito, utilizzata per vari scopi. Le smart card di base fungono da schede di memoria e vengono impiegate in applicazioni 
+come schede telefoniche o chiavi per porte. Posseggono un meccanismo di protezione per salvaguardare l'accesso ai dati memorizzati. Le smart card avanzate,
+ dotate di microchip, agiscono come veri e propri computer, utilizzati in contesti più complessi o che richiedono un maggiore livello di sicurezza,
+ come le SIM card dei cellulari.<br>
+
+
+    <img src="https://www.okpedia.it/data/okpedia/cd-rom.gif">
+ 
+    <h1>LE MEMORIE OTTICHE  </h1>
+    <p> LE MEMORIE OTTICHE 
+
+
+
+Le memorie ottiche sfruttano la capacità della luce laser di riflettersi in modo diverso attraverso i materiali per memorizzare informazioni.
+ Offrono vantaggi come stabilità dei dati, lunga durata e protezione dalle sovrascritture. I dischi ottici si dividono in ROM, WORM e dischi riscrivibili.
+ I primi erano notevolmente grandi, come i Laserdisc, ma successivamente sono stati ridotti di dimensioni, dando vita ai CD, DVD e Blu-ray Disc.
+<br>
+FUNZIONAMENTO DI UN DISCO OTTICO<br>
+<br>
+Un disco ottico è costituito da un substrato di policarbonato rivestito da uno strato di alluminio e protetto da materiali plastici trasparenti.
+ Per memorizzare dati, un raggio laser crea piccoli fori (pit) e superfici lisce (land), interpretati rispettivamente come 0 e 1. La lettura avviene con un raggio laser meno potente,
+ che interpreta la riflessione come 1 per land e 0 per pit. Questa tecnologia consente una densità di dati elevata e la possibilità di creare dischi riscrivibili,
+ come quelli utilizzando il metodo delle bolle per modificare la riflettività e consentire nuove scritture.
+<br>
+IL CD <br>
+
+<br>
+
+Il Compact Disc (CD) è un disco di dimensioni compatte con dati disposti lungo un'unica traccia a spirale dal centro verso l'esterno.
+ Utilizzato per musica e dati, i CD audio leggono a velocità costante (CLV) mentre i CD dati possono leggere a velocità variabile (CAV) per prestazioni elevate.
+ La velocità di lettura è indicata con "x", equivalente a 153,6 kB/s. I CD sono disponibili nei formati CD-ROM (ROM), CD-R (WORM) e CD-RW (erasable). I LiveCD sono versioni del sistema operativo
+ che funzionano senza periferiche di massa, utili per il recupero dei dati.
+<br>
+IL DVD
+<br>
+Il DVD, un'evoluzione del CD, ha dimensioni simili ma offre una capacità e una velocità di lettura superiori grazie a fori più piccoli e vicini sulla superficie.
+ Ha molti strati sovrapposti e può leggere su diversi strati regolando l'intensità del laser. La capacità varia da 4,7 GB a 17 GB a seconda del numero di lati e
+ livelli di memorizzazione utilizzati.
+<br>
+IL BLU RAU DISC
+
+<br>
+
+Il Blu-ray Disc, grazie all'uso di un laser blu, può riconoscere pit e land ancora più piccoli,
+ consentendo di memorizzare fino a 200 GB di dati, quasi 40 volte la capacità di un DVD single-side single-layer.
+ Per film ad alta definizione, si utilizzano dischi a doppio strato (oltre 50 GB) e codec più sofisticati come MPEG-4,
+ che consentono una maggiore compressione senza compromettere significativamente la qualità video.
+<br>
+RAID 
+<br>
+Il RAID (Redundant Array of Independent Disks) è un insieme di dischi indipendenti che consente di gestire e distribuire i dati tra le unità di archiviazione,
+ aumentando prestazioni, sicurezza e tolleranza ai guasti. Esistono varie configurazioni RAID, dal livello 0 al livello 7, che possono essere combinate.
+ Il livello 0 utilizza due dischi per memorizzare alternativamente i dati, garantendo velocità ma con rischio di perdita dei dati se uno dei dischi si guasta. Nel livello 1,
+ i dati sono duplicati su due dischi, offrendo una maggiore sicurezza grazie alla tecnica di mirroring.<br>
+
+
+
+
+    <img src="https://www.tecnomagazine.it/tech/wp-content/uploads/2013/07/blue-ray-disc.jpg">
+
+    <h1>LA MEMORIA VIRTUALE </h1>
+    <p>LA MEMORIA VIRTUALE 
+
+
+
+Quando le applicazioni richiedono più memoria di quella disponibile nella RAM, 
+il Sistema Operativo utilizza le memorie di massa per estendere la memoria centrale. Trasferisce blocchi di memoria meno utilizzati sull'hard disk, 
+creando una memoria virtuale. Questa permette al processore di vedere i blocchi sull'hard disk come parte della RAM, ma rallenta le prestazioni complessive a causa 
+dei tempi di accesso più lunghi dell'hard disk rispetto alla RAM. Tuttavia, evita blocchi dei programmi per mancanza di memoria.<br>
+ 
+
+
+
+
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpmULGgd-zcaNPoyDFt_bbOQNhjBG5KMsjSXPOcCIL6A&s">
+
+
+
+
+
+    <h1>LE PERIFERICHE  </h1>
+    <p> LE PERIFERICHE 
+possono essere di input output input/output LE PERIFERICHE DI INPUT TASTIERA 
+
+<br>
+
+
+Le periferiche di input trasformano informazioni in formato vario in dati digitali per il processore. La tastiera invia comandi e caratteri al computer, generando codici binari come ASCII.
+ Può collegarsi tramite cavo USB, PS/2 o wireless, e include caratteri di controllo per segnalare informazioni speciali. 
+Le tastiere moderne utilizzano anche codici estesi come UTF-8 e possono avere layout diversi come QWERTY, AZERTY o QWERTZ per adattarsi a vari idiomi.<br>
+
+
+
+
+    <img src="https://www.okpedia.it/data/okpedia/periferiche-box.jpg">
+
+
+
+
+    <h1>LE PERIFERICHE GRAFICHE 
+ </h1>
+    <p> LE PERIFERICHE GRAFICHE 
+
+
+
+Le periferiche grafiche consentono di muovere il cursore sullo schermo e interagire con i programmi. Include il mouse, che rileva movimenti
+ e pressioni dei tasti trasformandoli in segnali elettrici per il processore,
+ e il trackball, simile al mouse ma con una sfera o perno per muovere il cursore. Il touchpad è una superficie sensibile al tocco usata sui dispositivi portatili.
+ Il joystick è una leva con pulsanti per il controllo di giochi o simulatori.
+ I lettori di codici a barre decodificano sequenze di linee nere per identificare oggetti.<br>
+ Le tavolette grafiche consentono di disegnare e scrivere a mano libera, mentre le lavagne interattive permettono lezioni multimediali.
+<br>
+LO SCANNER 
+<br>
+
+
+Lo scanner 2D converte testi e immagini su carta in documenti elettronici, 
+illuminando il foglio con una luce intensa e rilevando colore e intensità tramite sensori. 
+Ogni punto viene convertito in un valore numerico, creando un'immagine raster. I programmi OCR possono riconoscere i caratteri dai testi scansionati.
+ La risoluzione, misurata in punti per pollice (dpi), determina la qualità della scansione. Gli scanner 3D creano modelli tridimensionali di oggetti utilizzando fotocamere o videocamere da varie angolazioni.
+ I modelli 3D professionali sono costosi, ma esistono anche scanner 3D economici che producono risultati meno precisi.
+<br>
+ALTRE PERIFERICHE DI INPUT
+<br>
+
+
+Le periferiche di input includono quelle per acquisire immagini e suoni. Le webcam sono sensori ottici che catturano immagini in movimento,
+ adatte per trasmettere dati su reti non molto veloci. Le fotocamere digitali utilizzano sensori per convertire l'energia luminosa in segnali elettrici,
+ creando file immagine archiviati su schede di memoria. La definizione di un sensore CCD è misurata in megapixel. I microfoni catturano suoni e voci, 
+trasformando gli spostamenti dell'aria in segnali elettrici che vengono elaborati dalla scheda audio del computer.<br>
+
+
+
+
+    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh60B4k3mqGphOxk8q04MDMlSXfXsOG-lknJMQQhPDuj0u2yQhI4OkcSNRXTMzDpMVIp3MdObK26K-Qja0TpWDYAgApasjGYOnH-EFZHyWmS2xok1FhtWnS88uGlFqsvCCBU4DFLyZAuAkN/s1600/Periferiche.jpg">
+ 
+    <h1>LE PERIFERICHE DI OUTPUT I VIDEO </h1>
+    <p> LE PERIFERICHE DI OUTPUT I VIDEO 
+
+
+
+Le periferiche di output trasformano le informazioni digitali dell'elaboratore in vari formati utilizzabili dagli utenti.
+ Le schede video gestiscono la visualizzazione, con un microprocessore dedicato alla grafica (GPU) che elabora le istruzioni grafiche.
+Nei dispositivi portatili, la parte grafica può essere integrata nel chip del microprocessore. I monitor permettono di visualizzare testi,
+immagini e video, gestendo ogni pixel sullo schermo e sono caratterizzati da dimensioni, risoluzione, profondità di colore e contrasto. Le tecnologie principali sono LCD e LED,
+ mentre i vecchi monitor CRT non sono più in produzione per motivi di sicurezza.
+<br>
+LA STAMPANTE
+<br>
+La stampante trasferisce testi, disegni e immagini su carta o altri supporti. Si distinguono per le dimensioni massime del foglio, la tecnologia (ad aghi, getto d'inchiostro, laser)
+e la risoluzione. Le stampanti sono dotate di memoria per gestire autonomamente la stampa, liberando il canale di comunicazione. Le stampanti InkJet utilizzano il getto d'inchiostro per creare l'immagine sul foglio,
+ mentre le stampanti laser sfruttano la tecnologia xerografica e stampa per pagine intere. I dati vengono elaborati dal microprocessore della stampante e convertiti in un'immagine bit per bit, memorizzata nella RAM della stampante.
+
+<br>
+
+Il plotter <br> 
+svolge le stesse funzioni di una stampante ma utilizza un rotolo di carta largo 841 mm, consentendo la stampa di disegni di grandi dimensioni. Inizialmente usava pennini,
+ poi sostituiti dal getto d'inchiostro per maggiore precisione e minori costi.
+
+La stampante 3D costruisce oggetti depositando strati successivi di materiale come plastica, metallo o ceramica. Il processo, chiamato stampa additiva,
+
+ è guidato da un file 3D e controllato da un microprocessore. La tecnica più comune è la FDM, che utilizza un filamento plastico o di cera scaldato e depositato strato per strato. 
+I vantaggi includono la riduzione degli sprechi, l'uso ottimale del materiale e la possibilità di costruire strutture interne complesse per migliorare robustezza e leggerezza.
+<br>
+ALTRE PERIFERICHE OUTPUT 
+<br>
+Esistono molte altre periferiche di output, specialmente in applicazioni multimediali, che consentono la visualizzazione di immagini e filmati o la riproduzione di suoni.
+
+1. Altoparlanti e cuffie: Collegate alla scheda audio, permettono di ascoltare suoni dall'elaboratore, come brani musicali, lezioni o audio/video conferenze.
+
+2. Videoproiettori: Collegati al computer, sostituiscono o operano in parallelo al monitor, proiettando sullo schermo ciò che appare sul monitor. Le lavagne LIM sono un'alternativa recente.<br>
+
+
+
+
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhdRAcU6TKA9VMBOC3281R1Dn_ag00cjKTEZUOuwcZJw&s">
+
+
+    <h1>LE PERIFERICHE INPUT/OUTPUT </h1>
+    <p> LE PERIFERICHE INPUT/OUTPUT
+<br>
+
+
+Le periferiche di input/output sono dispositivi che interagiscono costantemente con il processore, fungendo sia da input che da output.
+
+1. Scheda audio: Trasforma dati vocali in suoni e viceversa, gestendo input e output audio, ad esempio dalla musica o microfoni.
+
+2. Scheda di rete/modem:Adatta i dati all'output compatibile con la rete e li trasforma in input per il processore. Il modem converte segnali digitali in analogici e viceversa per la comunicazione su linee telefoniche.
+
+3. Video touch screen: Un tipo di monitor interattivo in cui è possibile selezionare toccando lo schermo. Utilizzato in stazioni, fiere, tablet e smartphone.
+
+4. Lavagne interattive (LIM): Grandi schermi collegati a un videoproiettore che permettono lezioni multimediali. Touch screen,
+ consentono di scrivere direttamente e salvare il contenuto su file, fungendo da estensione della tavoletta grafica.<br>
+
+
+
+
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMhSlKQUWy4BMScxC2r3wCAscWpI85xgL2Jimr2U4FPA&s">
+
+    <h1>INTERFACCIAMENTO PERIFERICHE </h1>
+    <p> INTERFACCIAMENTO PERIFERICHE 
+
+
+
+Il progresso degli elaboratori ha portato allo sviluppo di diversi standard di collegamento, noti come bus, per semplificare e velocizzare le connessioni con le periferiche.
+ Molti di questi standard sono stati sostituiti da soluzioni più moderne, ma alcuni rimangono in uso per via delle loro caratteristiche vantaggiose, 
+come costi ridotti o compatibilità con dispositivi più vecchi. Vediamo di seguito i principali standard attualmente utilizzati.
+<br>
+COLLEGAMENTO CON LA CPU 
+
+<br>
+
+Per espandere le funzionalità di una scheda madre del computer, è necessario un standard di comunicazione che collega la CPU alle schede o ai componenti aggiuntivi.
+ In passato, l'AGP era utilizzato per le schede video, ma è stato sostituito dal PCI, che offre velocità fino a 533 MB/s. Tuttavia, il PCI Express (PCIe) è diventato lo standard predominante,
+ offrendo un'ampia gamma di configurazioni e velocità di trasferimento dati più elevate, con canali seriali bidirezionali che consentono trasmissioni e ricezioni simultanee.
+ Le configurazioni disponibili includono x1, x2, x4, x8, x16 e x32, con velocità misurate in GT/s e ampiezza di banda misurata in GB/s.<br>
+
+
+
+
+    <img src="https://www.cosedicomputer.com/wp-content/uploads/porte-computer.jpg">
+  
+    <h1>COLLEGAMENTO CON MEMORIA DI MASSA  </h1>
+    <p>COLLEGAMENTO CON MEMORIA DI MASSA
+
+
+
+Per il collegamento con memorie di massa, l'PATA (Parallel ATA) è stato sostituito dal SATA (Serial ATA), 
+che utilizza cavi più sottili e trasferisce dati in sequenza su coppie di fili, migliorando le prestazioni. Il SATA offre tre versioni con velocità crescenti: SATA (150 MB/s), SATA2 (300 MB/s) e SATA3 (600 MB/s).
+ L'SCSI (Small Computer System Interface) è utilizzato per collegare varie periferiche e può supportare fino a 15 dispositivi, con versioni più veloci come l'Ultra 320 SCSI (20 MB/s). 
+Tuttavia, le interfacce SCSI sono state sostituite nelle workstation da connessioni USB. <br>
+
+
+
+
+    <img src="https://qph.cf2.quoracdn.net/main-qimg-3618a9787e2aeef9b222a634e7183603-lq">
+
+    <h1>COLLEGAMENTO CON VIDEO </h1>
+    <p> COLLEGAMENTO CON VIDEO
+
+
+
+Il Firewire (IEEE 1394) è uno standard per collegamenti veloci con periferiche video, supportando velocità fino a 400 Mb/s (IEEE 1394a) o 800 Mb/s / 3,2 Gb/s (IEEE 1394b).
+ Offre la possibilità di collegare direttamente una periferica di memorizzazione come un hard disk senza un computer.
+ Le interfacce video includono VGA (analogica), DVI (digitale), HDMI (audio e video digitali), S-Video (analogica) e Component/RGB (analogica)
+<br>
+ALTRI STANDARD 
+<br>
+
+
+Il paragrafo descrive diversi standard di connessione, inclusi quelli ormai in disuso come il Parallel Port (LPT) e il Serial Port (RS-232),
+ utilizzati per periferiche come stampanti e dispositivi industriali. L'USB è un'interfaccia universale per periferiche esterne, 
+con diverse varianti di connettori come USB Type A, B e C. La RJ45 è utilizzata per connettere un computer a una rete, con velocità che variano da Ethernet a 
+Gigabit Ethernet e una lunghezza massima del cavo di 100 metri.<br>
+
+
+
+
+    <img src="https://qph.cf2.quoracdn.net/main-qimg-3618a9787e2aeef9b222a634e7183603-lq">
+
+    <h1>LIMITI DELL ARCHITETTURA NON VON NEUMANN </h1>
+    <p>I LIMITI DELL ARCHITETTURA NON VON NEUMANN 
+
+
+
+Il paragrafo discute i limiti dell'architettura von Neumann, evidenziando che sebbene sia uno standard consolidato,
+ presenta criticità come la dipendenza eccessiva dalla CPU e i potenziali rallentamenti dovuti al passaggio di informazioni attraverso i bus. Tuttavia, 
+negli ultimi anni, sono state adottate diverse strategie per migliorare le prestazioni, tra cui l'aumento della velocità del clock, l'integrazione di unità di calcolo specializzate, 
+l'uso della tecnica pipeline, la disponibilità di memorie più veloci e l'implementazione del DMA Controller. Inoltre, un approccio alternativo propone l'utilizzo di più computer che collaborano nell'elaborazione dei dati,
+ ottenendo così una maggiore velocità di calcolo.
+<br>
+ARCHITETTURA DI ELABORAZIONE PARALLELA 
+<br>
+
+
+Il paragrafo introduce le architetture di elaborazione parallela, focalizzandosi sul parallel computing, che consente al computer di eseguire più operazioni contemporaneamente.
+ Le architetture di elaborazione parallela sono suddivise in categorie basate sulla gestione dei flussi di istruzioni e dei flussi di dati,
+ con due categorie principali: SIMD (Single Instruction/Multiple Data) e MIMD (Multiple Instruction/Multiple Data).
+ La categoria SIMD prevede che molti processori eseguano la stessa istruzione contemporaneamente su dati diversi,
+ mentre la categoria MIMD prevede che molti processori eseguano istruzioni diverse su dati diversi. Le architetture MIMD, come MPP e Cluster,
+ offrono vantaggi per le applicazioni che richiedono un uso intensivo della CPU, come quelle di grafica o di simulazione,
+ ma richiedono anche miglioramenti nei compilatori e nei sistemi operativi per raggiungere alte velocità di elaborazione. <br>
+
+
+
+
+    <img src="https://www.unionegeometri.com/wp-content/uploads/2022/08/architettura-di-von-neumann-2.png">
+ 
+    <h1>MODELLO ELABORAZIONE NON VON NEUMAN </h1>
+    <p>MODELLO ELABORAZIONE NON VON NEUMAN
+
+
+
+Il Dataflow si distingue per il suo approccio non sequenziale all’esecuzione delle istruzioni. In questo modello, le operazioni vengono eseguite non appena i dati necessari sono disponibili,
+ senza dover seguire un ordine prestabilito. Questo consente un’elevata parallelizzazione dell’elaborazione, in quanto più operazioni possono essere eseguite contemporaneamente su dati diversi.
+ Inoltre, la presenza di più microprocessori consente di eseguire operazioni indipendenti in parallelo, senza interferire tra loro.
+
+<br>
+
+La Reduction Machine, invece, affronta la complessità delle operazioni suddividendole in parti più semplici, che possono essere eseguite da diversi processori in parallelo.
+ Questo approccio consente di accelerare l’elaborazione suddividendo il carico di lavoro tra più unità di calcolo. Inoltre, le operazioni vengono eseguite non appena i dati sono disponibili,
+ senza dover attendere il completamento di altre operazioni.
+<br>
+OLTRE IL SILICIO
+<br>
+  l'utilizzo del silicio nelle architetture di calcolo, indicando che queste non rappresentano una rivoluzione del modello di von Neumann,
+ poiché le unità di calcolo rimangono basate sul silicio e si utilizzano ancora vie di comunicazione simili ai bus. Tuttavia, la ricerca sta esplorando nuovi materiali sostitutivi del silicio,
+ che potrebbero portare a concezioni completamente diverse dei computer, divergenti dal modello di von Neumann.
+<br>
+Due aree significative di ricerca sono menzionate
+<br>
+1. Cognitive computer: IBM sta studiando un tipo di computer che simula il funzionamento del cervello umano, elaborando,
+ trasmettendo e memorizzando informazioni in una struttura integrata, senza l'uso di bus.
+<br>
+2. Memristor: HP sta esplorando i memristor, nuovi chip che combinano proprietà di RAM e memorie di massa.
+ Questi chip lavorano in modo analogo ai neuroni, trasmettendo, codificando e memorizzando informazioni. Inoltre, essendo circuiti analogici,
+ potrebbero consentire la memorizzazione di più stati, superando la logica binaria dei circuiti digitali.<br> 
+
+
+
+  </body>
+</head>
+</html>
+</p>
+</br>
