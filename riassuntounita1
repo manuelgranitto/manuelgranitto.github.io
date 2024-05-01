@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html>
-<h2>Indice</h2>
-<ul>
-  <li>Il Processore</li>
+
+<h2>Indice UNITA 1</h2>
+
+<ul> <li>Indice UNITA 1</li>  
+ <li>Il Processore</li>
   <li>CLOCK</li>
   <li>I REGISTRI</li>
    <li>LA VELOCITÀ DI ELABORAZIONE</li>
@@ -22,24 +24,49 @@
                           <li>COLLEGAMENTO CON MEMORIA DI MASSA</li> 
                             <li>COLLEGAMENTO CON VIDEO</li>
                               <li>LIMITI DELL ARCHITETTURA NON VON NEUMANN</li>
-                                <li>MODELLO ELABORAZIONE NON VON NEUMAN</li>
-</ul>
+                                <li>MODELLO ELABORAZIONE NON VON NEUMAN</li> 
+ </ul>  
+                             <h2>Indice UNITA 2</h2>
+
+<ul>                  
+                                  
+                                     <li>AVVIO DI UN COMPUTER INTEL/AMD</li> 
+                                       <li>BASIC INPUT OUTPUT SYSTEM BIOS</li> 
+                                         <li> BIOS E CMOS</li> 
+                                           <li>AVVIO DEL COMPUTER</li>          
+                                             <li>AGGIORNAMENTO DEL BIOS</li> 
+                                               <li>AGGIORNAMENTO DEL BIOS</li> 
+                                                 <li>LE FASI DEL PROCESSO DELL AVVIO DI UN COMPUTER</li> 
+                                                   <li>I MODI DI OPERARE DELLA CPU DURANTE L'AVVIO DEL COMPUTER</li> 
+                                                     <li>BOOTSTRAP DA DISCO E GESTIONE DELLE PARTIZIONI</li> 
+                                                       <li>PARTIZIONAMENTO DELL HARD DISK</li> 
+                                                          <li>ANALISI DEL MBR CON EDITOR ESADECIMALE</li> 
+                                                            <li>L AVVIO DEL SISTEMA OPERATIVO</li> 
+                                                               <li>AVVIO DI UN COMPUTER INTEL/AMD CON UEFI E GPT</li> 
+                                                                  <li>LE SPECIFICHE STANDARD DI UEFI E LE CARATTERISTICHE PRINCIPALI</li> 
+                                                                     <li>PARTIZIONAMENTO DELL'HARD DISK CON GPT</li> 
+                                                                        <li>STRUTTURA DELLA GPT</li> 
+                                                                           <li>AVVIO Windows. L'architettura per il boot di Windows</li> 
+                                                                              <li>Modificare le opzioni di boot e multi-boot Windows</li> 
+                                                                                <li>AVVIO DEL SISTEMA OPERATIVO GNU/LINUX. ARCHITETTURA</li> 
+
+
+
+ </ul> 
+
+
+
+
 
 <head>
-    <title>Il Processore</title> <style>
-   h1 {
-    color:green;;
-  }
-</style>
- <style>
-  
- body {
-        background-color: #e0f2f1;
-      color: black;
-                                 }
-  
-     
- </style>
+<h1 style="border:2px solid Violet;">UNITA 1 IL PROCESSORE </h1>
+    <title>riassunto prima e seconda unita manuel granitto</title> 
+  <style>
+  body {background-color: powderblue;}
+  h1 {color: green;}
+  p {color: SlateBlue ;}
+</style>                               
+
      <body>
     <h1>Il Processore</h1> 
     <p>Il processore, noto anche come CPU (Central Processing Unit), è l'elemento cruciale di un computer, responsabile
@@ -47,15 +74,16 @@
 l'unità aritmetico-logica (ALU) e i registri interni. La sua capacità di processare  
 grandi quantità di dati deriva dalla sua velocità nell'esecuzione di operazioni semplici con circuiti veloci.
 I moderni microprocessori incorporano tutte le funzioni della CPU. Le operazioni principali includono somma,
-spostamento dati e gestione di memoria e periferiche.</p> <br>
+spostamento dati e gestione di memoria e periferiche.</p> 
     <img src="https://superpromo-shop.it/cdn/shop/articles/Cosa-sono-e-differenza-tra-processore-AI-e-processore-normale-in-informatica-960x502.jpg?v=1648294312">
+
 
     <h1> CLOCK</h1>
     <p>IL CLOCK 
 
 Il processore utilizza un orologio interno per sincronizzare le operazioni e la comunicazione con altri dispositivi. 
 La frequenza del clock, misurata in GHz, determina la velocità di trasmissione dei segnali e il ritmo delle operazioni. Alcune operazioni richiedono 
-più cicli di clock, e una frequenza più alta consente l'esecuzione di più istruzioni nell'unità di tempo.</p> <br>
+più cicli di clock, e una frequenza più alta consente l'esecuzione di più istruzioni nell'unità di tempo.</p> 
 
 
     <h1> I REGISTRI </h1>
@@ -65,8 +93,10 @@ I registri sono memorie ausiliarie cruciali nell'architettura dei computer, capa
  Presentano varie tipologie, ma quelli all'interno della CPU sono particolarmente importanti per memorizzare dati e istruzioni. Tecnicamente, un registro è 
  composto da elementi fisici bistabili, noti come bit, e la loro configurazione rappresenta l'informazione memorizzata. Le operazioni di scrittura e lettura possono 
  coinvolgere tutti i bit contemporaneamente (registro parallelo) o uno alla volta (registro seriale).
- Gli elaboratori contengono diversi registri, ognuno con una specifica funzione e utilizzato in momenti specifici dell'elaborazione <br>
+ Gli elaboratori contengono diversi registri, ognuno con una specifica funzione e utilizzato in momenti specifici dell'elaborazione</p>  
+
     <img src="https://while1qiplusplus.files.wordpress.com/2012/01/untitled6.png">
+}
 
 
 
@@ -76,8 +106,8 @@ I registri sono memorie ausiliarie cruciali nell'architettura dei computer, capa
 
 
 In breve, la velocità di elaborazione della CPU dipende da cinque fattori principali: il numero di bit che può processare simultaneamente, la frequenza del clock, la struttura interna che ottimizza le operazioni, il numero di core integrati e la velocità delle periferiche collegate. L'uso di una architettura a 64 bit consente di elaborare operazioni complesse più efficientemente rispetto 
-a una a 32 bit. Un aumento della frequenza del clock accelera le operazioni, ma è limitato dal surriscaldamento. La struttura interna ottimizzata e l'integrazione di più core migliorano le prestazioni. <br>
- Le periferiche più lente possono rallentare l'elaborazione, ma la cache interna aiuta a mitigare questo problema, sebbene possa essere costosa e occupare spazio. <br>
+a una a 32 bit. Un aumento della frequenza del clock accelera le operazioni, ma è limitato dal surriscaldamento. La struttura interna ottimizzata e l'integrazione di più core migliorano le prestazioni. 
+ Le periferiche più lente possono rallentare l'elaborazione, ma la cache interna aiuta a mitigare questo problema, sebbene possa essere costosa e occupare spazio.</p>  
 
     <img src="https://lh4.googleusercontent.com/proxy/sZG0_sEaCTcBHLzrE9rHK2UH6iCcsSQqJVO6iWHRIgEVnuWoVd5VwAiSFPJ9YR9hCH_zD6rx-pXeJIBN2fjer_kvmxtkaY_Xrz4eUYTllFg">
 
@@ -88,162 +118,99 @@ a una a 32 bit. Un aumento della frequenza del clock accelera le operazioni, ma 
 
 
 In un elaboratore, le componenti comunicano tramite cavi multipli chiamati bus, che collegano il processore, la memoria centrale e le periferiche per lo scambio di informazioni e comandi.<br>
- Il bus di sistema, costituito da un centinaio di fili sulla scheda madre, include tre tipi principali di bus: bus dati, bus indirizzi e bus di controllo, che gestiscono rispettivamente il trasferimento dei dati,<br> 
-degli indirizzi di memoria e dei segnali di controllo tra le varie componenti.<br>
-<br>
-<br>
+ Il bus di sistema, costituito da un centinaio di fili sulla scheda madre, include tre tipi principali di bus: bus dati, bus indirizzi e bus di controllo, 
+che gestiscono rispettivamente il trasferimento dei dati,
+degli indirizzi di memoria e dei segnali di controllo tra le varie componenti.<br>BUS DATI<br>
+Il bus di sistema è un canale attraverso cui le componenti dell'elaboratore scambiano dati e istruzioni. Il numero di fili che lo compongono dipende dal parallelismo dati del microprocessore,
+solitamente 32 o 64 bit.
+Un Data bus a 32 bit consente di trasferire 4 byte con una sola operazione. Il bus è bidirezionale, permettendo il flusso dei dati sia da che verso il microprocessore.<br>BUS INDIRIZZI<br> 
+Il bus indirizzi è utilizzato dal microprocessore per generare e gestire gli indirizzi delle celle di memoria e delle periferiche.
+Trasporta i codici binari che identificano le locazioni di memoria o le periferiche.
+È monodirezionale, con segnali generati solo dal microprocessore. Il numero di fili dipende dal parallelismo dati e può generare una quantità di indirizzi
+superiore alla combinazione di n bit, consentendo di indirizzare un numero maggiore di locazioni di memoria. Ad esempio, con 16 bit è possibile indirizzare 64 kB di locazioni.<br>BUS DI CONTROLLO E CONTROLLER<br> 
+Il bus di controllo è responsabile di coordinare le operazioni del sistema e di comunicare le istruzioni su cosa fare in un dato momento. È meno omogeneo rispetto ai bus di dati e indirizzi,
+poiché le funzionalità dei suoi fili dipendono dalle periferiche coinvolte. Esistono varie modalità di connessione tra periferiche e bus di controllo per ottimizzare il trasferimento dei dati.
+I segnali sul bus di controllo sono in parte unidirezionali e in parte bidirezionali, ma ogni linea è unidirezionale.
+Il bus controller aiuta a ridurre i consumi elettrici fornendo tensioni e correnti adeguate
+per gestire i segnali elettrici. Sulla scheda madre sono presenti più control bus specifici per adattare le informazioni alle varie periferiche.
+I collegamenti fondamentali includono BUSY per indicare lo stato di occupazione della
+periferica, IRQ per segnalare al microprocessore la necessità di elaborazione basata su eventi, e IORD/IOWR per indicare se la periferica è in fase di lettura o scrittura.
 
-BUS DATI<br>
-<br>
-
-
-Il bus di sistema è un canale attraverso cui le componenti dell'elaboratore scambiano dati e istruzioni. Il numero di fili che lo compongono dipende dal parallelismo dati del microprocessore, solitamente 32 o 64 bit.<br> 
-Un Data bus a 32 bit consente di trasferire 4 byte con una sola operazione. Il bus è bidirezionale, permettendo il flusso dei dati sia da che verso il microprocessore.<br>
-
-
-
-BUS INDIRIZZI<br> 
-<br>
-
-
-Il bus indirizzi è utilizzato dal microprocessore per generare e gestire gli indirizzi delle celle di memoria e delle periferiche. Trasporta i codici binari che identificano le locazioni di memoria o le periferiche.<br>
- È monodirezionale, con segnali generati solo dal microprocessore. Il numero di fili dipende dal parallelismo dati e può generare una quantità di indirizzi superiore alla combinazione di n bit, consentendo di indirizzare un <br>
-numero maggiore di locazioni di memoria. Ad esempio, con 16 bit è possibile indirizzare 64 kB di locazioni.<br>
-
-<br>
-
-BUS DI CONTROLLO E CONTROLLER<br> 
-
-
-
-Il bus di controllo è responsabile di coordinare le operazioni del sistema e di comunicare le istruzioni su cosa fare in un dato momento. È meno omogeneo rispetto ai bus di dati e indirizzi,<br>
-poiché le funzionalità dei suoi fili dipendono dalle periferiche coinvolte. Esistono varie modalità di connessione tra periferiche e bus di controllo per ottimizzare il trasferimento dei dati.<br>
-I segnali sul bus di controllo sono in parte unidirezionali e in parte bidirezionali, ma ogni linea è unidirezionale. Il bus controller aiuta a ridurre i consumi elettrici fornendo tensioni e correnti adeguate<br>
-per gestire i segnali elettrici. Sulla scheda madre sono presenti più control bus specifici per adattare le informazioni alle varie periferiche.<br>
-I collegamenti fondamentali includono BUSY per indicare lo stato di occupazione della<br>
-periferica, IRQ per segnalare al microprocessore la necessità di elaborazione basata su eventi, e IORD/IOWR per indicare se la periferica è in fase di lettura o scrittura.<br>
-
-In breve, la velocità di elaborazione della CPU dipende da cinque fattori principali: il numero di bit che può processare simultaneamente, la frequenza del clock, <br> 
-la struttura interna che ottimizza le operazioni, il numero di core integrati e la velocità delle periferiche collegate. L'uso di una architettura a 64 bit consente di elaborare operazioni complesse più efficientemente rispetto <br>
+In breve, la velocità di elaborazione della CPU dipende da cinque fattori principali: il numero di bit che può processare simultaneamente, la frequenza del clock, 
+la struttura interna che ottimizza le operazioni, il numero di core integrati e la velocità delle periferiche collegate. L'uso di una architettura a 64 bit consente di elaborare operazioni complesse più efficientemente rispetto 
 a una a 32 bit. Un aumento della frequenza del clock accelera le operazioni, ma è limitato dal surriscaldamento. La struttura interna ottimizzata e l'integrazione di più core migliorano le prestazioni. 
-Le periferiche più lente possono rallentare l'elaborazione, ma la cache interna aiuta a mitigare questo problema, sebbene possa essere costosa e occupare spazio. <br>
+Le periferiche più lente possono rallentare l'elaborazione, ma la cache interna aiuta a mitigare questo problema, sebbene possa essere costosa e occupare spazio.</p>  
 
     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgSeTh1be0UO6rOd0MyJwVZdCnAqtA9OUZgKRjyT6VTw&s">
 
 
 
     <h1>OTTIMIZZARE LE PRESTAZIONI DEI BUS  </h1>
-    <p>OTTIMIZZARE LE PRESTAZIONI DEI BUS 
-
-
-
-per ottimizzare le prestazioni dei bus si Introduce il concetto di Bus mastering, in cui dispositivi specializzati gestiscono i trasferimenti dati senza richiedere 
+    <p>per ottimizzare le prestazioni dei bus si Introduce il concetto di Bus mastering, in cui dispositivi specializzati gestiscono i trasferimenti dati senza richiedere 
  l'intervento diretto della CPU, con il DMA (Direct Memory Access) come esempio principale. Descrive anche la suddivisione del bus in bus distinti per dispositivi veloci o lenti, 
-gestiti da un chipset dedicato. Il chipset, composto da Northbridge e Southbridge, facilita la comunicazione tra CPU e periferiche attraverso il Front-Side Bus (FSB).
-<br>
-NORTHBRIDGE E SOUTHBRIDGE <br>
-<br>
+gestiti da un chipset dedicato. Il chipset, composto da Northbridge e Southbridge, facilita la comunicazione tra CPU e periferiche attraverso il Front-Side Bus (FSB).<br>NORTHBRIDGE E SOUTHBRIDGE<br>
 Il paragrafo descrive le funzioni di due componenti fondamentali di un chipset: il Northbridge e il Southbridge. Il Northbridge, 
 o Memory Controller Hub (MCH), gestisce le comunicazioni con le periferiche più veloci come la RAM e le schede video esterne. 
 Le funzioni dell'MCH sono spesso integrate nel processore per migliorare le prestazioni e ridurre i costi. Il Southbridge, o I/O Controller Hub (ICH), 
 gestisce le comunicazioni con le periferiche relativamente più lente e adatta i segnali del microprocessore alle varie periferiche che adottano standard differenti. Inoltre, 
 il paragrafo menziona il Back Side Bus (BSB), che collega la CPU a una memoria cache esterna alla CPU sulla scheda madre,
- utile per migliorare le prestazioni della CPU quando la cache interna non è sufficiente.<br>
-
+ utile per migliorare le prestazioni della CPU quando la cache interna non è sufficiente.</p> 
 
     <img src="https://ennebi.solira.org/pcinside/mother.jpg">
+
   </body>
 
 
     <h1>FUNZIONI DELLA CACHE </h1>
-    <p> FUNZIONI DELLA CACHE 
-
-
-
-La memoria cache è una memoria nascosta gestita direttamente dal microprocessore tramite il cache controller.
+    <p>La memoria cache è una memoria nascosta gestita direttamente dal microprocessore tramite il cache controller.
  È più veloce della RAM, fungendo da memoria intermedia per conservare i dati utilizzati di frequente, migliorando così le prestazioni della CPU.
  Inizialmente esterna al microprocessore, è ora integrata all'interno della CPU, divisa in tre livelli: L1, L2 e L3. Nei moderni processori multi-core, ogni core ha L1 e L2 private,
- mentre L3 è condivisa tra i core. L'aumento della capacità dalla L1 alla L3 comporta una diminuzione della velocità.<br>
+ mentre L3 è condivisa tra i core. L'aumento della capacità dalla L1 alla L3 comporta una diminuzione della velocità.</p> 
+<br>
 
-
-
-
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8wyQYqApjasRjQ-ATUSRaC9tJ82UXmDjEN2fBxuHY2A&s">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8wyQYqApjasRjQ-ATUSRaC9tJ82UXmDjEN2fBxuHY2A&s">
 
 
 
     <h1>GESTIONE CACHE  </h1>
-    <p> GESTIONE CACHE 
-
-
-
-Il rapporto tra cache hit e accessi totali, noto come hit rate, è cruciale per valutare l'efficacia della cache. Quando la cache è piena,
+    <p>Il rapporto tra cache hit e accessi totali, noto come hit rate, è cruciale per valutare l'efficacia della cache. Quando la cache è piena,
 si adotta il criterio LRU (Least Recently Used) per liberare spazio, eliminando i dati meno recentemente utilizzati. È importante mantenere la coerenza tra cache e memoria centrale,
  implementando strategie come write-through (aggiornamento immediato della memoria principale) o write-back (aggiornamento ritardato al rilascio dalla cache). Nei sistemi multiprocessore,
  i protocolli di coerenza garantiscono l'aggiornamento dei dati tra cache e memoria centrale. Il posizionamento dei dati nella cache può essere libero o vincolato,
- con il secondo metodo che favorisce trasferimenti più veloci ma aumenta il rischio di sovraffollamento.<br>
+ con il secondo metodo che favorisce trasferimenti più veloci ma aumenta il rischio di sovraffollamento.</p> 
 
 
-
-
-    <h1> </h1>
-    <p> MEMORIA CENTRALE CARATTERISTICHE <br>
-
-
-<br>
-La memoria centrale, o RAM (Random Access Memory), è cruciale per l'architettura di un computer.
+    <h1>MEMORIA CENTRALE CARATTERISTICHE  </h1>
+    <p>La memoria centrale, o RAM (Random Access Memory), è cruciale per l'architettura di un computer.
  Conserva temporaneamente il programma in esecuzione e tutte le informazioni necessarie alla CPU. Caratteristiche principali includono la sua struttura a milioni di celle, 
 ciascuna contenente lo stato di un bit, organizzate in righe e colonne. La RAM offre accesso diretto a ogni byte, il che significa che l'accesso ai dati non dipende dalla loro posizione.
- I dati possono essere letti e scritti e sono mantenuti solo quando la memoria è alimentata, con la perdita dei dati al momento dello spegnimento del computer.<br>
-
-ORGANIZZAZIONE DELLA MEMORIA CENTRALE <br>
-
-<br>
-
+I dati possono essere letti e scritti e sono mantenuti solo quando la memoria è alimentata, con la perdita dei dati al momento dello spegnimento del computer.<br>ORGANIZZAZIONE DELLA MEMORIA CENTRALE<br> 
 Ogni cella di memoria ha un indirizzo univoco che indica la sua posizione all'interno della memoria, espressa tramite una matrice di righe e colonne.
- Gli indirizzi sono spesso espressi in esadecimale per permettere un maggiore numero di indirizzamenti. La capacità della memoria è misurata in byte,
-con multipli binari come il kibibyte (KiB), il mebibyte (MiB) e il gibibyte (GiB). Ad esempio, se un computer ha 4 GiB di RAM, significa che la sua memoria centrale contiene circa 4 miliardi di byte.<br>
-
-OPERAZIONI DELLA MEMORIA CENTRALE<br> 
-
-<br>
-
+Gli indirizzi sono spesso espressi in esadecimale per permettere un maggiore numero di indirizzamenti. La capacità della memoria è misurata in byte,
+con multipli binari come il kibibyte (KiB), il mebibyte (MiB) e il gibibyte (GiB). Ad esempio, se un computer ha 4 GiB di RAM, significa che la sua memoria centrale contiene circa 4 miliardi di byte.<br>OPERAZIONI DELLA MEMORIA CENTRALE<br> 
 Le operazioni di lettura e scrittura della memoria centrale coinvolgono diverse fasi. Per la lettura,
- il microprocessore genera l'indirizzo della cella desiderata, che viene decodificato internamente alla memoria,
- la quale trasferisce i dati richiesti al Data bus. Per la scrittura, il processo è simile, ma con il microprocessore che immette i dati da scrivere sul Data bus. 
+il microprocessore genera l'indirizzo della cella desiderata, che viene decodificato internamente alla memoria,
+la quale trasferisce i dati richiesti al Data bus. Per la scrittura, il processo è simile, ma con il microprocessore che immette i dati da scrivere sul Data bus. 
 Il controllo degli errori è fondamentale, con bit aggiuntivi interni alla memoria per verificarne lo stato. Gli errori possono causare malfunzionamenti gravi, come il blocco dell'esecuzione del programma o del sistema operativo,
- richiedendo spesso la sostituzione del modulo danneggiato.<br>
-
-
-
+richiedendo spesso la sostituzione del modulo danneggiato.</p> 
 
     <img src="https://etc.vecla.it/wikidol0809/img/w_ram.jpg">
  
 
-
     <h1>TIPOLOGIE DI MEMORIE  </h1>
-    <p> TIPOLOGIE DI MEMORIE 
-
-
-
-Le memorie si distinguono in volatili, che mantengono le informazioni solo quando sono alimentate, e permanenti, che conservano i dati anche senza corrente.
+    <p>Le memorie si distinguono in volatili, che mantengono le informazioni solo quando sono alimentate, e permanenti, che conservano i dati anche senza corrente.
  La prestazione delle memorie si valuta in base alla latenza e alla velocità di trasferimento. Le memorie volatili includono In sintesi,
  la DRAM offre una maggiore capacità di archiviazione e una maggiore densità a un costo inferiore, ma richiede un refresh periodico. D’altra parte,
  la SRAM è più veloce e richiede meno energia, ma è più costosa e meno densa, quindi viene utilizzata principalmente come memoria cache per migliorare le prestazioni del sistema.
 costantemente alimentate. Le memorie permanenti, come le ROM, vengono programmate durante la fabbricazione e contengono programmi di avvio del sistema.
- Le PROM possono essere programmate dall'utente, mentre le EPROM possono essere cancellate e riprogrammate un numero limitato di volte.<br>
-
-LE MEMORIE SECONDARIE L EVOLUZIONE<br> 
-<br>
-
-
+ Le PROM possono essere programmate dall'utente, mentre le EPROM possono essere cancellate e riprogrammate un numero limitato di volte.<br>LE MEMORIE SECONDARIE L EVOLUZIONE<br> 
 Le memorie secondarie, chiamate anche memorie di massa, sono utilizzate per conservare informazioni permanentemente e hanno una capacità di memoria elevata,
  ma tempi di accesso più lunghi rispetto alla RAM. Tradizionalmente, i dischi magnetici e ottici sono stati i principali supporti per le memorie secondarie, ma negli ultimi anni,
  sono emerse nuove soluzioni di archiviazione come le memorie flash. Queste ultime hanno guadagnato popolarità grazie alla crescente domanda di memorie portatili e ai loro costi inferiori. 
 Inoltre, i servizi di cloud storage offrono un'alternativa conveniente per l'archiviazione remota dei dati, consentendo l'accesso da qualsiasi luogo connesso a Internet. Tuttavia,
- ci sono ancora preoccupazioni riguardo alla privacy e alla sicurezza dei dati archiviati nei servizi cloud.<br>
+ ci sono ancora preoccupazioni riguardo alla privacy e alla sicurezza dei dati archiviati nei servizi cloud</p>
 
-<br>
+
 
 
 
@@ -252,211 +219,119 @@ Inoltre, i servizi di cloud storage offrono un'alternativa conveniente per l'arc
 
 
     <h1>MEMORIE MAGNETICHE  </h1>
-    <p> MEMORIE MAGNETICHE 
-
-Le memorie magnetiche sfruttano la polarizzazione magnetica per memorizzare dati.
- Ogni bit è rappresentato dalla direzione di magnetizzazione di una cella magnetizzabile sul supporto.
- La lettura e la scrittura avvengono attraverso una testina vicina al supporto, che può essere sdoppiata per separare le funzioni di lettura e scrittura.<br>
-
-HARD DISK<br> 
-<br>
+    <p>Le memorie magnetiche sfruttano la polarizzazione magnetica per memorizzare dati.
+Ogni bit è rappresentato dalla direzione di magnetizzazione di una cella magnetizzabile sul supporto.
+La lettura e la scrittura avvengono attraverso una testina vicina al supporto, che può essere sdoppiata per separare le funzioni di lettura e scrittura.<br>HARD DISK<br> 
 Il disco magnetico, noto come hard disk, è una memoria ad accesso diretto composta da piatti rigidi con materiale ferromagnetico depositato su di essi.
- I piatti sono suddivisi in tracce concentriche chiamate tracce o piste e in settori di lunghezza fissa.
- Il disco è facilmente indirizzabile a livello di traccia e settore,
- consentendo un accesso diretto. La testina mobile legge il disco mentre ruota a una velocità costante. 
+I piatti sono suddivisi in tracce concentriche chiamate tracce o piste e in settori di lunghezza fissa.Il disco è facilmente indirizzabile a livello di traccia e settore,
+consentendo un accesso diretto. La testina mobile legge il disco mentre ruota a una velocità costante. 
 Il tempo di accesso dipende dalla posizione della testina e dalla
- velocità di rotazione del disco.
- Per migliorare i tempi di accesso, è presente una memoria cache sul circuito di controllo dell'hard disk.
- I collegamenti avvengono principalmente tramite gli standard EIDE (in disuso) e SATA per il System bus, 
-mentre per gli hard disk esterni si utilizzano SATA e USB.
-<br>
-LE MEMORIE FLASH <br>
-<br>
-
-
+velocità di rotazione del disco.
+per migliorare i tempi di accesso, è presente una memoria cache sul circuito di controllo dell'hard disk.
+I collegamenti avvengono principalmente tramite gli standard EIDE (in disuso) e SATA per il System bus, 
+mentre per gli hard disk esterni si utilizzano SATA e USB.<br>LE MEMORIE FLASH <br>
 Le memorie flash, come gli SSD (Solid State Drive) e le Pen drive,
- sono costituite da circuiti elettronici semiconduttori che consentono di mantenere i dati anche senza alimentazione.
- Gli SSD, utilizzando la tecnologia NAND, offrono tempi di accesso molto bassi e maggiori prestazioni rispetto agli hard disk tradizionali.
- Le Pen drive, con capacità ridotte, sono estremamente robuste, facili da trasportare e hanno un costo basso. Tuttavia, 
-la loro durata è limitata a causa dell'usura durante le fasi di scrittura.
-<br>
-LA SMART CARD <br>
-
-<br>
-
+sono costituite da circuiti elettronici semiconduttori che consentono di mantenere i dati anche senza alimentazione.
+Gli SSD, utilizzando la tecnologia NAND, offrono tempi di accesso molto bassi e maggiori prestazioni rispetto agli hard disk tradizionali.
+Le Pen drive, con capacità ridotte, sono estremamente robuste, facili da trasportare e hanno un costo basso. Tuttavia, 
+la loro durata è limitata a causa dell'usura durante le fasi di scrittura.<br>LA SMART CARD <br>
 La smart card è una scheda di plastica con microprocessore e memoria flash,
  simile a una carta di credito, utilizzata per vari scopi. Le smart card di base fungono da schede di memoria e vengono impiegate in applicazioni 
 come schede telefoniche o chiavi per porte. Posseggono un meccanismo di protezione per salvaguardare l'accesso ai dati memorizzati. Le smart card avanzate,
- dotate di microchip, agiscono come veri e propri computer, utilizzati in contesti più complessi o che richiedono un maggiore livello di sicurezza,
- come le SIM card dei cellulari.<br>
+dotate di microchip, agiscono come veri e propri computer, utilizzati in contesti più complessi o che richiedono un maggiore livello di sicurezza,
+come le SIM card dei cellulari.</p>
 
 
     <img src="https://www.okpedia.it/data/okpedia/cd-rom.gif">
  
     <h1>LE MEMORIE OTTICHE  </h1>
-    <p> LE MEMORIE OTTICHE 
-
-
-
-Le memorie ottiche sfruttano la capacità della luce laser di riflettersi in modo diverso attraverso i materiali per memorizzare informazioni.
- Offrono vantaggi come stabilità dei dati, lunga durata e protezione dalle sovrascritture. I dischi ottici si dividono in ROM, WORM e dischi riscrivibili.
- I primi erano notevolmente grandi, come i Laserdisc, ma successivamente sono stati ridotti di dimensioni, dando vita ai CD, DVD e Blu-ray Disc.
-<br>
-FUNZIONAMENTO DI UN DISCO OTTICO<br>
-<br>
+    <p>Le memorie ottiche sfruttano la capacità della luce laser di riflettersi in modo diverso attraverso i materiali per memorizzare informazioni.
+Offrono vantaggi come stabilità dei dati, lunga durata e protezione dalle sovrascritture. I dischi ottici si dividono in ROM, WORM e dischi riscrivibili.
+I primi erano notevolmente grandi, come i Laserdisc, ma successivamente sono stati ridotti di dimensioni, dando vita ai CD, DVD e Blu-ray Disc.<br>FUNZIONAMENTO DI UN DISCO OTTICO<br>
 Un disco ottico è costituito da un substrato di policarbonato rivestito da uno strato di alluminio e protetto da materiali plastici trasparenti.
- Per memorizzare dati, un raggio laser crea piccoli fori (pit) e superfici lisce (land), interpretati rispettivamente come 0 e 1. La lettura avviene con un raggio laser meno potente,
- che interpreta la riflessione come 1 per land e 0 per pit. Questa tecnologia consente una densità di dati elevata e la possibilità di creare dischi riscrivibili,
- come quelli utilizzando il metodo delle bolle per modificare la riflettività e consentire nuove scritture.
-<br>
-IL CD <br>
-
-<br>
-
+Per memorizzare dati, un raggio laser crea piccoli fori (pit) e superfici lisce (land), interpretati rispettivamente come 0 e 1. La lettura avviene con un raggio laser meno potente,
+che interpreta la riflessione come 1 per land e 0 per pit. Questa tecnologia consente una densità di dati elevata e la possibilità di creare dischi riscrivibili,
+come quelli utilizzando il metodo delle bolle per modificare la riflettività e consentire nuove scritture.<br>IL CD <br>
 Il Compact Disc (CD) è un disco di dimensioni compatte con dati disposti lungo un'unica traccia a spirale dal centro verso l'esterno.
- Utilizzato per musica e dati, i CD audio leggono a velocità costante (CLV) mentre i CD dati possono leggere a velocità variabile (CAV) per prestazioni elevate.
- La velocità di lettura è indicata con "x", equivalente a 153,6 kB/s. I CD sono disponibili nei formati CD-ROM (ROM), CD-R (WORM) e CD-RW (erasable). I LiveCD sono versioni del sistema operativo
- che funzionano senza periferiche di massa, utili per il recupero dei dati.
-<br>
-IL DVD
-<br>
+Utilizzato per musica e dati, i CD audio leggono a velocità costante (CLV) mentre i CD dati possono leggere a velocità variabile (CAV) per prestazioni elevate.
+La velocità di lettura è indicata con "x", equivalente a 153,6 kB/s. I CD sono disponibili nei formati CD-ROM (ROM), CD-R (WORM) e CD-RW (erasable). I LiveCD sono versioni del sistema operativo
+che funzionano senza periferiche di massa, utili per il recupero dei dati.<br>IL DVD<br>
 Il DVD, un'evoluzione del CD, ha dimensioni simili ma offre una capacità e una velocità di lettura superiori grazie a fori più piccoli e vicini sulla superficie.
- Ha molti strati sovrapposti e può leggere su diversi strati regolando l'intensità del laser. La capacità varia da 4,7 GB a 17 GB a seconda del numero di lati e
- livelli di memorizzazione utilizzati.
-<br>
-IL BLU RAU DISC
-
-<br>
-
+Ha molti strati sovrapposti e può leggere su diversi strati regolando l'intensità del laser. La capacità varia da 4,7 GB a 17 GB a seconda del numero di lati e
+livelli di memorizzazione utilizzati.<br>IL BLU RAU DISC<br>
 Il Blu-ray Disc, grazie all'uso di un laser blu, può riconoscere pit e land ancora più piccoli,
- consentendo di memorizzare fino a 200 GB di dati, quasi 40 volte la capacità di un DVD single-side single-layer.
- Per film ad alta definizione, si utilizzano dischi a doppio strato (oltre 50 GB) e codec più sofisticati come MPEG-4,
- che consentono una maggiore compressione senza compromettere significativamente la qualità video.
-<br>
-RAID 
-<br>
+consentendo di memorizzare fino a 200 GB di dati, quasi 40 volte la capacità di un DVD single-side single-layer.
+Per film ad alta definizione, si utilizzano dischi a doppio strato (oltre 50 GB) e codec più sofisticati come MPEG-4,
+che consentono una maggiore compressione senza compromettere significativamente la qualità video.<br>RAID<br>
 Il RAID (Redundant Array of Independent Disks) è un insieme di dischi indipendenti che consente di gestire e distribuire i dati tra le unità di archiviazione,
  aumentando prestazioni, sicurezza e tolleranza ai guasti. Esistono varie configurazioni RAID, dal livello 0 al livello 7, che possono essere combinate.
  Il livello 0 utilizza due dischi per memorizzare alternativamente i dati, garantendo velocità ma con rischio di perdita dei dati se uno dei dischi si guasta. Nel livello 1,
- i dati sono duplicati su due dischi, offrendo una maggiore sicurezza grazie alla tecnica di mirroring.<br>
-
-
-
+ i dati sono duplicati su due dischi, offrendo una maggiore sicurezza grazie alla tecnica di mirroring.</p>
 
     <img src="https://www.tecnomagazine.it/tech/wp-content/uploads/2013/07/blue-ray-disc.jpg">
 
     <h1>LA MEMORIA VIRTUALE </h1>
-    <p>LA MEMORIA VIRTUALE 
-
-
-
-Quando le applicazioni richiedono più memoria di quella disponibile nella RAM, 
+    <p>Quando le applicazioni richiedono più memoria di quella disponibile nella RAM, 
 il Sistema Operativo utilizza le memorie di massa per estendere la memoria centrale. Trasferisce blocchi di memoria meno utilizzati sull'hard disk, 
 creando una memoria virtuale. Questa permette al processore di vedere i blocchi sull'hard disk come parte della RAM, ma rallenta le prestazioni complessive a causa 
-dei tempi di accesso più lunghi dell'hard disk rispetto alla RAM. Tuttavia, evita blocchi dei programmi per mancanza di memoria.<br>
+dei tempi di accesso più lunghi dell'hard disk rispetto alla RAM. Tuttavia, evita blocchi dei programmi per mancanza di memoria</p>
  
 
-
-
-
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpmULGgd-zcaNPoyDFt_bbOQNhjBG5KMsjSXPOcCIL6A&s">
-
-
-
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpmULGgd-zcaNPoyDFt_bbOQNhjBG5KMsjSXPOcCIL6A&s">
 
 
     <h1>LE PERIFERICHE  </h1>
-    <p> LE PERIFERICHE 
-possono essere di input output input/output LE PERIFERICHE DI INPUT TASTIERA 
-
-<br>
-
-
+    <p>possono essere di input output input/output<br>LE PERIFERICHE DI INPUT TASTIERA<br>
 Le periferiche di input trasformano informazioni in formato vario in dati digitali per il processore. La tastiera invia comandi e caratteri al computer, generando codici binari come ASCII.
  Può collegarsi tramite cavo USB, PS/2 o wireless, e include caratteri di controllo per segnalare informazioni speciali. 
-Le tastiere moderne utilizzano anche codici estesi come UTF-8 e possono avere layout diversi come QWERTY, AZERTY o QWERTZ per adattarsi a vari idiomi.<br>
+Le tastiere moderne utilizzano anche codici estesi come UTF-8 e possono avere layout diversi come QWERTY, AZERTY o QWERTZ per adattarsi a vari idiomi.</p>
+
+
+  <img src="https://www.okpedia.it/data/okpedia/periferiche-box.jpg">
 
 
 
 
-    <img src="https://www.okpedia.it/data/okpedia/periferiche-box.jpg">
-
-
-
-
-    <h1>LE PERIFERICHE GRAFICHE 
- </h1>
-    <p> LE PERIFERICHE GRAFICHE 
-
-
-
-Le periferiche grafiche consentono di muovere il cursore sullo schermo e interagire con i programmi. Include il mouse, che rileva movimenti
+    <h1>LE PERIFERICHE GRAFICHE</h1>
+    <p>Le periferiche grafiche consentono di muovere il cursore sullo schermo e interagire con i programmi. Include il mouse, che rileva movimenti
  e pressioni dei tasti trasformandoli in segnali elettrici per il processore,
  e il trackball, simile al mouse ma con una sfera o perno per muovere il cursore. Il touchpad è una superficie sensibile al tocco usata sui dispositivi portatili.
  Il joystick è una leva con pulsanti per il controllo di giochi o simulatori.
- I lettori di codici a barre decodificano sequenze di linee nere per identificare oggetti.<br>
- Le tavolette grafiche consentono di disegnare e scrivere a mano libera, mentre le lavagne interattive permettono lezioni multimediali.
-<br>
-LO SCANNER 
-<br>
-
-
+ I lettori di codici a barre decodificano sequenze di linee nere per identificare oggetti.
+ Le tavolette grafiche consentono di disegnare e scrivere a mano libera, mentre le lavagne interattive permettono lezioni multimediali.<br>LO SCANNER<br>
 Lo scanner 2D converte testi e immagini su carta in documenti elettronici, 
 illuminando il foglio con una luce intensa e rilevando colore e intensità tramite sensori. 
 Ogni punto viene convertito in un valore numerico, creando un'immagine raster. I programmi OCR possono riconoscere i caratteri dai testi scansionati.
- La risoluzione, misurata in punti per pollice (dpi), determina la qualità della scansione. Gli scanner 3D creano modelli tridimensionali di oggetti utilizzando fotocamere o videocamere da varie angolazioni.
- I modelli 3D professionali sono costosi, ma esistono anche scanner 3D economici che producono risultati meno precisi.
-<br>
-ALTRE PERIFERICHE DI INPUT
-<br>
-
-
+La risoluzione, misurata in punti per pollice (dpi), determina la qualità della scansione. Gli scanner 3D creano modelli tridimensionali di oggetti utilizzando fotocamere o videocamere da varie angolazioni. I modelli 3D professionali sono costosi, ma esistono anche scanner 3D economici che producono risultati meno precisi.<br>ALTRE PERIFERICHE DI INPUT<br>
 Le periferiche di input includono quelle per acquisire immagini e suoni. Le webcam sono sensori ottici che catturano immagini in movimento,
  adatte per trasmettere dati su reti non molto veloci. Le fotocamere digitali utilizzano sensori per convertire l'energia luminosa in segnali elettrici,
  creando file immagine archiviati su schede di memoria. La definizione di un sensore CCD è misurata in megapixel. I microfoni catturano suoni e voci, 
-trasformando gli spostamenti dell'aria in segnali elettrici che vengono elaborati dalla scheda audio del computer.<br>
-
-
+trasformando gli spostamenti dell'aria in segnali elettrici che vengono elaborati dalla scheda audio del computer.</p>
 
 
     <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh60B4k3mqGphOxk8q04MDMlSXfXsOG-lknJMQQhPDuj0u2yQhI4OkcSNRXTMzDpMVIp3MdObK26K-Qja0TpWDYAgApasjGYOnH-EFZHyWmS2xok1FhtWnS88uGlFqsvCCBU4DFLyZAuAkN/s1600/Periferiche.jpg">
  
     <h1>LE PERIFERICHE DI OUTPUT I VIDEO </h1>
-    <p> LE PERIFERICHE DI OUTPUT I VIDEO 
-
-
-
-Le periferiche di output trasformano le informazioni digitali dell'elaboratore in vari formati utilizzabili dagli utenti.
- Le schede video gestiscono la visualizzazione, con un microprocessore dedicato alla grafica (GPU) che elabora le istruzioni grafiche.
+    <p>Le periferiche di output trasformano le informazioni digitali dell'elaboratore in vari formati utilizzabili dagli utenti.
+Le schede video gestiscono la visualizzazione, con un microprocessore dedicato alla grafica (GPU) che elabora le istruzioni grafiche.
 Nei dispositivi portatili, la parte grafica può essere integrata nel chip del microprocessore. I monitor permettono di visualizzare testi,
 immagini e video, gestendo ogni pixel sullo schermo e sono caratterizzati da dimensioni, risoluzione, profondità di colore e contrasto. Le tecnologie principali sono LCD e LED,
- mentre i vecchi monitor CRT non sono più in produzione per motivi di sicurezza.
-<br>
-LA STAMPANTE
-<br>
+mentre i vecchi monitor CRT non sono più in produzione per motivi di sicurezza<br>LA STAMPANTE<br>
 La stampante trasferisce testi, disegni e immagini su carta o altri supporti. Si distinguono per le dimensioni massime del foglio, la tecnologia (ad aghi, getto d'inchiostro, laser)
-e la risoluzione. Le stampanti sono dotate di memoria per gestire autonomamente la stampa, liberando il canale di comunicazione. Le stampanti InkJet utilizzano il getto d'inchiostro per creare l'immagine sul foglio,
- mentre le stampanti laser sfruttano la tecnologia xerografica e stampa per pagine intere. I dati vengono elaborati dal microprocessore della stampante e convertiti in un'immagine bit per bit, memorizzata nella RAM della stampante.
-
-<br>
-
-Il plotter <br> 
+e la risoluzione. Le stampanti sono dotate di memoria per gestire autonomamente la stampa, liberando il canale di comunicazione.
+Le stampanti InkJet utilizzano il getto d'inchiostro per creare l'immagine sul foglio,
+mentre le stampanti laser sfruttano la tecnologia xerografica e stampa per pagine intere. I dati vengono elaborati dal microprocessore della stampante e convertiti in un'immagine bit per bit, memorizzata nella RAM della stampante.<br>Il plotter <br> 
 svolge le stesse funzioni di una stampante ma utilizza un rotolo di carta largo 841 mm, consentendo la stampa di disegni di grandi dimensioni. Inizialmente usava pennini,
- poi sostituiti dal getto d'inchiostro per maggiore precisione e minori costi.
-
+poi sostituiti dal getto d'inchiostro per maggiore precisione e minori costi.
 La stampante 3D costruisce oggetti depositando strati successivi di materiale come plastica, metallo o ceramica. Il processo, chiamato stampa additiva,
-
- è guidato da un file 3D e controllato da un microprocessore. La tecnica più comune è la FDM, che utilizza un filamento plastico o di cera scaldato e depositato strato per strato. 
-I vantaggi includono la riduzione degli sprechi, l'uso ottimale del materiale e la possibilità di costruire strutture interne complesse per migliorare robustezza e leggerezza.
-<br>
-ALTRE PERIFERICHE OUTPUT 
-<br>
-Esistono molte altre periferiche di output, specialmente in applicazioni multimediali, che consentono la visualizzazione di immagini e filmati o la riproduzione di suoni.
-
-1. Altoparlanti e cuffie: Collegate alla scheda audio, permettono di ascoltare suoni dall'elaboratore, come brani musicali, lezioni o audio/video conferenze.
-
-2. Videoproiettori: Collegati al computer, sostituiscono o operano in parallelo al monitor, proiettando sullo schermo ciò che appare sul monitor. Le lavagne LIM sono un'alternativa recente.<br>
-
+è guidato da un file 3D e controllato da un microprocessore. La tecnica più comune è la FDM, che utilizza un filamento plastico o di cera scaldato e depositato strato per strato. 
+I vantaggi includono la riduzione degli sprechi, l'uso ottimale del materiale
+e la possibilità di costruire strutture interne complesse per migliorare robustezza e leggerezza.<br>ALTRE PERIFERICHE OUTPUT<br>
+Esistono molte altre periferiche di output, specialmente in applicazioni multimediali, che consentono la visualizzazione di immagini e filmati o la riproduzione di suoni. </p>
+<ul>
+  <li>Altoparlanti e cuffie: Collegate alla scheda audio, permettono di ascoltare suoni dall'elaboratore, come brani musicali, lezioni o audio/video conferenze.</li>
+   <li>Videoproiettori: Collegati al computer, sostituiscono o operano in parallelo al monitor, proiettando sullo schermo ciò che appare sul monitor. Le lavagne LIM sono un'alternativa recente.</li>
+</ul>
 
 
 
@@ -464,58 +339,37 @@ Esistono molte altre periferiche di output, specialmente in applicazioni multime
 
 
     <h1>LE PERIFERICHE INPUT/OUTPUT </h1>
-    <p> LE PERIFERICHE INPUT/OUTPUT
-<br>
+    <p>Le periferiche di input/output sono dispositivi che interagiscono costantemente con il processore, fungendo sia da input che da output. </p>
+    <ul>
+  <li>Scheda audio: Trasforma dati vocali in suoni e viceversa, gestendo input e output audio, ad esempio dalla musica o microfoni.</li>
+    <li>Scheda di rete/modem: Adatta i dati all'output compatibile con la rete e li trasforma in input per il processore. Il modem converte segnali digitali in analogici e viceversa per la comunicazione su                             linee telefoniche.</li>
+     <li>Video touch screen: Un tipo di monitor interattivo in cui è possibile selezionare toccando lo schermo. Utilizzato in stazioni, fiere, tablet e smartphone.</li>
+       <li>Lavagne interattive (LIM): Grandi schermi collegati a un videoproiettore che permettono lezioni multimediali. Touch screen, consentono di scrivere direttamente e salvare il contenuto su file, fungendo da estensione della tavoletta grafica.</li>
 
-
-Le periferiche di input/output sono dispositivi che interagiscono costantemente con il processore, fungendo sia da input che da output.
-
-1. Scheda audio: Trasforma dati vocali in suoni e viceversa, gestendo input e output audio, ad esempio dalla musica o microfoni.
-
-2. Scheda di rete/modem:Adatta i dati all'output compatibile con la rete e li trasforma in input per il processore. Il modem converte segnali digitali in analogici e viceversa per la comunicazione su linee telefoniche.
-
-3. Video touch screen: Un tipo di monitor interattivo in cui è possibile selezionare toccando lo schermo. Utilizzato in stazioni, fiere, tablet e smartphone.
-
-4. Lavagne interattive (LIM): Grandi schermi collegati a un videoproiettore che permettono lezioni multimediali. Touch screen,
- consentono di scrivere direttamente e salvare il contenuto su file, fungendo da estensione della tavoletta grafica.<br>
-
+</ul>
 
 
 
     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMhSlKQUWy4BMScxC2r3wCAscWpI85xgL2Jimr2U4FPA&s">
 
     <h1>INTERFACCIAMENTO PERIFERICHE </h1>
-    <p> INTERFACCIAMENTO PERIFERICHE 
-
-
-
-Il progresso degli elaboratori ha portato allo sviluppo di diversi standard di collegamento, noti come bus, per semplificare e velocizzare le connessioni con le periferiche.
- Molti di questi standard sono stati sostituiti da soluzioni più moderne, ma alcuni rimangono in uso per via delle loro caratteristiche vantaggiose, 
-come costi ridotti o compatibilità con dispositivi più vecchi. Vediamo di seguito i principali standard attualmente utilizzati.
-<br>
-COLLEGAMENTO CON LA CPU 
-
-<br>
-
+    <p>Il progresso degli elaboratori ha portato allo sviluppo di diversi standard di collegamento, noti come bus, per semplificare e velocizzare le connessioni con le periferiche.
+Molti di questi standard sono stati sostituiti da soluzioni più moderne, ma alcuni rimangono in uso per via delle loro caratteristiche vantaggiose, 
+come costi ridotti o compatibilità con dispositivi più vecchi. Vediamo di seguito i principali standard attualmente utilizzati.<br>COLLEGAMENTO CON LA CPU<br>
 Per espandere le funzionalità di una scheda madre del computer, è necessario un standard di comunicazione che collega la CPU alle schede o ai componenti aggiuntivi.
- In passato, l'AGP era utilizzato per le schede video, ma è stato sostituito dal PCI, che offre velocità fino a 533 MB/s. Tuttavia, il PCI Express (PCIe) è diventato lo standard predominante,
- offrendo un'ampia gamma di configurazioni e velocità di trasferimento dati più elevate, con canali seriali bidirezionali che consentono trasmissioni e ricezioni simultanee.
- Le configurazioni disponibili includono x1, x2, x4, x8, x16 e x32, con velocità misurate in GT/s e ampiezza di banda misurata in GB/s.<br>
+In passato, l'AGP era utilizzato per le schede video, ma è stato sostituito dal PCI, che offre velocità fino a 533 MB/s. Tuttavia, il PCI Express (PCIe) è diventato lo standard predominante,
+offrendo un'ampia gamma di configurazioni e velocità di trasferimento dati più elevate, con canali seriali bidirezionali che consentono trasmissioni e ricezioni simultanee.
+Le configurazioni disponibili includono x1, x2, x4, x8, x16 e x32, con velocità misurate in GT/s e ampiezza di banda misurata in GB/s. </p>
 
 
-
-
-    <img src="https://www.cosedicomputer.com/wp-content/uploads/porte-computer.jpg">
+ <img src="https://www.cosedicomputer.com/wp-content/uploads/porte-computer.jpg">
   
     <h1>COLLEGAMENTO CON MEMORIA DI MASSA  </h1>
-    <p>COLLEGAMENTO CON MEMORIA DI MASSA
-
-
-
-Per il collegamento con memorie di massa, l'PATA (Parallel ATA) è stato sostituito dal SATA (Serial ATA), 
-che utilizza cavi più sottili e trasferisce dati in sequenza su coppie di fili, migliorando le prestazioni. Il SATA offre tre versioni con velocità crescenti: SATA (150 MB/s), SATA2 (300 MB/s) e SATA3 (600 MB/s).
- L'SCSI (Small Computer System Interface) è utilizzato per collegare varie periferiche e può supportare fino a 15 dispositivi, con versioni più veloci come l'Ultra 320 SCSI (20 MB/s). 
-Tuttavia, le interfacce SCSI sono state sostituite nelle workstation da connessioni USB. <br>
+    <p>Per il collegamento con memorie di massa, l'PATA (Parallel ATA) è stato sostituito dal SATA (Serial ATA), 
+che utilizza cavi più sottili e trasferisce dati in sequenza su coppie di fili, migliorando le prestazioni.
+Il SATA offre tre versioni con velocità crescenti: SATA (150 MB/s), SATA2 (300 MB/s) e SATA3 (600 MB/s).
+L'SCSI (Small Computer System Interface) è utilizzato per collegare varie periferiche e può supportare fino a 15 dispositivi, con versioni più veloci come l'Ultra 320 SCSI (20 MB/s). 
+Tuttavia, le interfacce SCSI sono state sostituite nelle workstation da connessioni USB. </p>
 
 
 
@@ -523,90 +377,183 @@ Tuttavia, le interfacce SCSI sono state sostituite nelle workstation da connessi
     <img src="https://qph.cf2.quoracdn.net/main-qimg-3618a9787e2aeef9b222a634e7183603-lq">
 
     <h1>COLLEGAMENTO CON VIDEO </h1>
-    <p> COLLEGAMENTO CON VIDEO
-
-
-
-Il Firewire (IEEE 1394) è uno standard per collegamenti veloci con periferiche video, supportando velocità fino a 400 Mb/s (IEEE 1394a) o 800 Mb/s / 3,2 Gb/s (IEEE 1394b).
- Offre la possibilità di collegare direttamente una periferica di memorizzazione come un hard disk senza un computer.
- Le interfacce video includono VGA (analogica), DVI (digitale), HDMI (audio e video digitali), S-Video (analogica) e Component/RGB (analogica)
-<br>
-ALTRI STANDARD 
-<br>
-
-
+    <p>Il Firewire (IEEE 1394) è uno standard per collegamenti veloci con periferiche video, supportando velocità fino a 400 Mb/s (IEEE 1394a) o 800 Mb/s / 3,2 Gb/s (IEEE 1394b).
+Offre la possibilità di collegare direttamente una periferica di memorizzazione come un hard disk senza un computer.
+Le interfacce video includono VGA (analogica), DVI (digitale), HDMI (audio e video digitali), S-Video (analogica) e Component/RGB (analogica)<br>ALTRI STANDARD <br>
 Il paragrafo descrive diversi standard di connessione, inclusi quelli ormai in disuso come il Parallel Port (LPT) e il Serial Port (RS-232),
- utilizzati per periferiche come stampanti e dispositivi industriali. L'USB è un'interfaccia universale per periferiche esterne, 
+utilizzati per periferiche come stampanti e dispositivi industriali. L'USB è un'interfaccia universale per periferiche esterne, 
 con diverse varianti di connettori come USB Type A, B e C. La RJ45 è utilizzata per connettere un computer a una rete, con velocità che variano da Ethernet a 
-Gigabit Ethernet e una lunghezza massima del cavo di 100 metri.<br>
-
-
-
-
-    <img src="https://qph.cf2.quoracdn.net/main-qimg-3618a9787e2aeef9b222a634e7183603-lq">
+Gigabit Ethernet e una lunghezza massima del cavo di 100 metri. </p>
 
     <h1>LIMITI DELL ARCHITETTURA NON VON NEUMANN </h1>
-    <p>I LIMITI DELL ARCHITETTURA NON VON NEUMANN 
-
-
-
-Il paragrafo discute i limiti dell'architettura von Neumann, evidenziando che sebbene sia uno standard consolidato,
- presenta criticità come la dipendenza eccessiva dalla CPU e i potenziali rallentamenti dovuti al passaggio di informazioni attraverso i bus. Tuttavia, 
+    <p>Il paragrafo discute i limiti dell'architettura von Neumann, evidenziando che sebbene sia uno standard consolidato,
+presenta criticità come la dipendenza eccessiva dalla CPU e i potenziali rallentamenti dovuti al passaggio di informazioni attraverso i bus. Tuttavia, 
 negli ultimi anni, sono state adottate diverse strategie per migliorare le prestazioni, tra cui l'aumento della velocità del clock, l'integrazione di unità di calcolo specializzate, 
 l'uso della tecnica pipeline, la disponibilità di memorie più veloci e l'implementazione del DMA Controller. Inoltre, un approccio alternativo propone l'utilizzo di più computer che collaborano nell'elaborazione dei dati,
- ottenendo così una maggiore velocità di calcolo.
-<br>
-ARCHITETTURA DI ELABORAZIONE PARALLELA 
-<br>
-
-
+ottenendo così una maggiore velocità di calcolo.<br>ARCHITETTURA DI ELABORAZIONE PARALLELA <br>
 Il paragrafo introduce le architetture di elaborazione parallela, focalizzandosi sul parallel computing, che consente al computer di eseguire più operazioni contemporaneamente.
- Le architetture di elaborazione parallela sono suddivise in categorie basate sulla gestione dei flussi di istruzioni e dei flussi di dati,
- con due categorie principali: SIMD (Single Instruction/Multiple Data) e MIMD (Multiple Instruction/Multiple Data).
- La categoria SIMD prevede che molti processori eseguano la stessa istruzione contemporaneamente su dati diversi,
- mentre la categoria MIMD prevede che molti processori eseguano istruzioni diverse su dati diversi. Le architetture MIMD, come MPP e Cluster,
- offrono vantaggi per le applicazioni che richiedono un uso intensivo della CPU, come quelle di grafica o di simulazione,
- ma richiedono anche miglioramenti nei compilatori e nei sistemi operativi per raggiungere alte velocità di elaborazione. <br>
+Le architetture di elaborazione parallela sono suddivise in categorie basate sulla gestione dei flussi di istruzioni e dei flussi di dati,
+con due categorie principali: SIMD (Single Instruction/Multiple Data) e MIMD (Multiple Instruction/Multiple Data).
+La categoria SIMD prevede che molti processori eseguano la stessa istruzione contemporaneamente su dati diversi,
+mentre la categoria MIMD prevede che molti processori eseguano istruzioni diverse su dati diversi. Le architetture MIMD, come MPP e Cluster,
+offrono vantaggi per le applicazioni che richiedono un uso intensivo della CPU, come quelle di grafica o di simulazione,
+ma richiedono anche miglioramenti nei compilatori e nei sistemi operativi per raggiungere alte velocità di elaborazione.</p>
 
 
-
-
-    <img src="https://www.unionegeometri.com/wp-content/uploads/2022/08/architettura-di-von-neumann-2.png">
+    <img src="https://www.unionegeometri.com/wp-content/uploads/2022/08/architettura-di-von-neumann-2.png"  width="400" height="250">
  
-    <h1>MODELLO ELABORAZIONE NON VON NEUMAN </h1>
-    <p>MODELLO ELABORAZIONE NON VON NEUMAN
-
-
-
-Il Dataflow si distingue per il suo approccio non sequenziale all’esecuzione delle istruzioni. In questo modello, le operazioni vengono eseguite non appena i dati necessari sono disponibili,
+    <h1>MODELLO ELABORAZIONE NON VON NEUMANN </h1>
+    <p>Il Dataflow si distingue per il suo approccio non sequenziale all’esecuzione delle istruzioni. In questo modello, le operazioni vengono eseguite non appena i dati necessari sono disponibili,
  senza dover seguire un ordine prestabilito. Questo consente un’elevata parallelizzazione dell’elaborazione, in quanto più operazioni possono essere eseguite contemporaneamente su dati diversi.
  Inoltre, la presenza di più microprocessori consente di eseguire operazioni indipendenti in parallelo, senza interferire tra loro.
-
-<br>
-
 La Reduction Machine, invece, affronta la complessità delle operazioni suddividendole in parti più semplici, che possono essere eseguite da diversi processori in parallelo.
- Questo approccio consente di accelerare l’elaborazione suddividendo il carico di lavoro tra più unità di calcolo. Inoltre, le operazioni vengono eseguite non appena i dati sono disponibili,
- senza dover attendere il completamento di altre operazioni.
-<br>
-OLTRE IL SILICIO
-<br>
-  l'utilizzo del silicio nelle architetture di calcolo, indicando che queste non rappresentano una rivoluzione del modello di von Neumann,
- poiché le unità di calcolo rimangono basate sul silicio e si utilizzano ancora vie di comunicazione simili ai bus. Tuttavia, la ricerca sta esplorando nuovi materiali sostitutivi del silicio,
- che potrebbero portare a concezioni completamente diverse dei computer, divergenti dal modello di von Neumann.
-<br>
-Due aree significative di ricerca sono menzionate
-<br>
-1. Cognitive computer: IBM sta studiando un tipo di computer che simula il funzionamento del cervello umano, elaborando,
- trasmettendo e memorizzando informazioni in una struttura integrata, senza l'uso di bus.
-<br>
-2. Memristor: HP sta esplorando i memristor, nuovi chip che combinano proprietà di RAM e memorie di massa.
- Questi chip lavorano in modo analogo ai neuroni, trasmettendo, codificando e memorizzando informazioni. Inoltre, essendo circuiti analogici,
- potrebbero consentire la memorizzazione di più stati, superando la logica binaria dei circuiti digitali.<br> 
+Questo approccio consente di accelerare l’elaborazione suddividendo il carico di lavoro tra più unità di calcolo. Inoltre, le operazioni vengono eseguite non appena i dati sono disponibili,
+senza dover attendere il completamento di altre operazioni.<br>OLTRE IL SILICIO<br>
+l'utilizzo del silicio nelle architetture di calcolo, indicando che queste non rappresentano una rivoluzione del modello di von Neumann,
+poiché le unità di calcolo rimangono basate sul silicio e si utilizzano ancora vie di comunicazione simili ai bus. Tuttavia, la ricerca sta esplorando nuovi materiali sostitutivi del silicio,
+che potrebbero portare a concezioni completamente diverse dei computer, divergenti dal modello di von Neumann.<br>Due aree significative di ricerca sono menzionate </p>
+<ul>
+  <li>Cognitive computer: IBM sta studiando un tipo di computer che simula il funzionamento del cervello umano, elaborando, trasmettendo e memorizzando informazioni in una struttura integrata, senza l'uso di bus.</li>
+  <li>Memristor: HP sta esplorando i memristor, nuovi chip che combinano proprietà di RAM e memorie di massa. Questi chip lavorano in modo analogo ai neuroni, trasmettendo, codificando e memorizzando informazioni. Inoltre, essendo circuiti analogici, potrebbero consentire la memorizzazione di più stati, superando la logica binaria dei circuiti digitali.</li>
+</ul>
 
 
+<h1 style="border:2px solid DodgerBlue;">UNITA 2 </h1>
 
-  </body>
+ <h1>AVVIO DI UN COMPUTER INTEL/AMD</h1>
+    <p>Il paragrafo descrive il processo di avvio di un computer con processore Intel o simile, iniziando con il BIOS o UEFI, il firmware che gestisce l'avvio. Questo firmware si occupa di controllare l'hardware, inizializzare le periferiche, cercare il sistema operativo e avviare le funzioni base del kernel. Si menziona anche la differenza tra il firmware nei computer e quello nei dispositivi Android, e si chiarisce che le procedure descritte si applicano sia a Windows che a Linux. Le lezioni successive approfondiranno i processi di avvio e installazione del sistema operativo, con riferimento a Windows 10 e Ubuntu 20.04 LTS.</p>
+
+ <img src="https://th.bing.com/th/id/OIP.cvKfPEGI7anGhto17PHAEgHaEL?rs=1&pid=ImgDetMain">
+
+<h1>BASIC INPUT OUTPUT SYSTEM BIOS E SVOLGIMENTO</h1>
+    <p>The BIOS, initially stored in ROM and later in EEPROM or flash memory, is firmware responsible for bootstrapping the computer, providing low-level functions for hardware access, basic input/output functions, and a simple user interface for hardware configuration. The bootstrap process involves loading the operating system after a general reset, starting with the BIOS reading the hard disk drive boot sector and ending when the OS is loaded. Various companies develop BIOS ROM products, with popular ones being Ami BIOS, Phoenix BIOS, and Award BIOS. Configuration data can be accessed and sometimes modified through the BIOS setup menu using specific function keys displayed on the initial screen. However, modifying these settings should be done with caution to avoid computer malfunctioning.<br>SVOLGIMENTO<br> 
+Il paragrafo spiega che ogni produttore sviluppa diverse versioni di BIOS per adattarsi alle esigenze dei costruttori di motherboard, portando a differenze nell'interfaccia e nella terminologia pur mantenendo le stesse funzionalità di base. Viene illustrato il processo per accedere al menu del BIOS all'accensione del computer, evidenziando l'importanza della sequenza di boot, che determina il dispositivo da cui avviare il sistema operativo. Altre impostazioni modificabili includono data e ora, abilitazione/disabilitazione dei dispositivi hardware e impostazione delle password. Viene anche menzionato l'overclocking, sconsigliato dai produttori di CPU per il rischio di danneggiamento dei componenti, con alcune alternative fornite da Intel come l'Intel® Extreme Tuning Utility (Intel® XTU).</p>
+
+ <img src="https://th.bing.com/th/id/OIP.RfbsU2vdtrc1DYeYSk86GwHaEK?rs=1&pid=ImgDetMain">
+
+<h1>BIOS E CMOS</h1>
+  <p>Il paragrafo spiega il ruolo della Complementary Metal-Oxide Semiconductor (CMOS) nella memorizzazione delle impostazioni di base del BIOS sulla scheda madre. La CMOS richiedeva una batteria tampone per mantenere le impostazioni quando il computer era spento. Attualmente, le moderne motherboard utilizzano altri metodi di memorizzazione, come la memoria RAM di tipo non volatile (NVRAM) o il chip BIOS stesso. Tuttavia, una batteria rimane presente per alimentare il chip del realtime clock (RTC), che mantiene data e ora del sistema. La batteria, comunemente chiamata "batteria CMOS", può durare anche più di dieci anni con un uso regolare, ma si scarica più rapidamente se il computer rimane spento per lunghi periodi.</p>
+
+
+ <img src="https://th.bing.com/th/id/R.d32e901286a039d3951948fba2b443e2?rik=Pi9OihdNZZJT4A&pid=ImgRaw&r=0"  width="300" height="200">
+
+
+<h1>Avvio del Computer</h1>
+  <p>Il paragrafo descrive tre procedure per ripristinare le impostazioni del BIOS in base alle condizioni del computer:</p>
+  <ol>
+    <li>
+      <p>Utilizzare le funzioni di reset nel BIOS, se possibile, al momento dell'accensione del PC, attraverso il tasto funzione indicato. Questo comporta la selezione dell'opzione di reset nel menu del BIOS e il salvataggio delle modifiche per ripristinare i valori di default del produttore.</p>
+    </li>
+    <li>
+      <p>Agire sul jumper RTCRST sulla motherboard se il computer non dà alcun segnale e si verifica una situazione "No POST" o "No Video". Questo richiede lo spegnimento del computer, la ricerca e la manipolazione del jumper CMOS sulla scheda madre, seguita da una serie di passaggi per resettare il BIOS.</p>
+    </li>
+    <li>
+      <p>Rimuovere la batteria CMOS come alternativa al reset del BIOS. Questo metodo viene utilizzato quando non è possibile accedere ai ponticelli su un PC desktop o in caso di computer portatile. Richiede l'apertura del computer, la rimozione e la reinstallazione della batteria CMOS per ripristinare le impostazioni predefinite del BIOS.</p>
+    </li>
+  </ol>
+  <p>Il paragrafo fornisce istruzioni dettagliate per ciascun metodo, inclusi suggerimenti per la manipolazione sicura dei componenti elettronici e la riconfigurazione del BIOS dopo il ripristino.</p>
+
+ <img src="https://th.bing.com/th/id/OIP.xz9qpQ8DDdjYDppgQ4NpFwHaDt?w=297&h=175&c=7&r=0&o=5&pid=1.7">
+
+<h1>AGGIORNAMENTO DEL BIOS </h1>
+  <p>Il firmware BIOS può essere aggiornato tramite il processo di flashing BIOS, essenziale per supportare nuovi hardware o risolvere problemi. Durante l'aggiornamento, è vitale mantenere il computer collegato all'alimentazione per evitare danni alla motherboard. È importante seguire le istruzioni del produttore specifico, conoscere il modello della scheda madre e altre informazioni hardware. Si possono ottenere dettagli sul BIOS utilizzando comandi come "sudo dmidecode" o installando programmi come hardinfo. Una volta ottenute le informazioni necessarie, si può cercare e installare la nuova versione del firmware dal sito del produttore, seguendo attentamente le istruzioni fornite. Alcuni sistemi, come le versioni recenti di Ubuntu e i computer HP con Windows, notificano automaticamente gli utenti riguardo ai nuovi aggiornamenti BIOS.</p>
+
+ <img src="https://th.bing.com/th/id/OIP.TnVcr8zMrgqCnPgIieJ4UAHaFj?w=186&h=180&c=7&r=0&o=5&pid=1.7">
+
+<h1>L ACCENSIONE DEL COMPUTER </h1>
+  <p>All'accensione del PC, la motherboard avvia la CPU e inizializza i componenti elettronici, con le ventole che indicano il funzionamento. In caso di problemi con la CPU, di solito non ci sono segnalazioni, sebbene alcune motherboard possano emettere segnali sonori. Il processore carica la prima istruzione da eseguire, chiamata reset vector, da una memoria read-only non volatile. Questo indirizzo è stabilito dal produttore della CPU e contiene un salto incondizionato all'inizio del codice del BIOS con le istruzioni di avvio.</p>
+
+ <img src="https://th.bing.com/th/id/OIP.Ztft-QzvYKohSFOPzOKAwAHaFW?w=237&h=180&c=7&r=0&o=5&pid=1.7">
+
+<h1>LE FASI DEL PROCESSO DELL AVVIO DI UN COMPUTER </h1>
+  <p>Il BIOS svolge diverse funzioni cruciali durante il processo di avvio del computer. Tra queste, il Power On Self Test (POST) verifica il funzionamento dei componenti hardware fondamentali, segnalando eventuali malfunzionamenti tramite suoni o messaggi. Successivamente, il BIOS inizializza il monitor e gli altri dispositivi, visualizza il menu del BIOS e imposta vari parametri di memoria e drive. Configura anche i dispositivi plug & play e identifica i dispositivi attivi per il bootstrap, consentendo all'utente di scegliere l'ordine di avvio dei dispositivi.</p>
+
+ <img src="https://th.bing.com/th/id/OIP.zOgPZnlWbr_lqkEFKEyx_wHaFj?w=240&h=180&c=7&r=0&o=5&pid=1.7">
+
+<h1>I MODI DI OPERARE DELLA CPU DURANTE L'AVVIO DEL COMPUTER</h1>
+
+  <p>Durante l'avvio del computer, il processore attivo immediatamente dopo l'accensione è chiamato bootstrap processor, che esegue le istruzioni del BIOS e del kernel per avviare il sistema. Gli altri processori rimangono inattivi fino a quando non vengono avviati esplicitamente dal kernel del Sistema Operativo. Inizialmente, il bootstrap processor opera in Real Mode o Kernel Mode, con accesso completo alla memoria fisica e senza meccanismi di protezione. Una volta completata la fase di bootstrap e avviato il kernel, la CPU lavora in Protected Mode.</p>
+
+ <img src="https://th.bing.com/th/id/OIP.C5LpnnwluS9S7J0l-UW5EgHaFf?w=238&h=180&c=7&r=0&o=5&pid=1.7">
+
+<h1>BOOTSTRAP DA DISCO E GESTIONE DELLE PARTIZIONI</h1>
+
+  <p>Durante l'avvio del computer, il BIOS cerca il dispositivo di avvio, di solito l'hard disk, tramite il boot loader, avviando così la fase di bootstrap per caricare il kernel del Sistema Operativo in memoria. Nei PC è possibile installare più Sistemi Operativi, consentendo all'utente di scegliere durante il bootstrap quale avviare. Il boot loader è memorizzato nel Master Boot Record (MBR) del disco, composto da 512 byte che includono il first stage boot loader e la Partition Table, oltre al magic number per indicare la fine del MBR. Una volta trovato il boot sector contenente il boot loader, il BIOS lo carica in memoria e lo esegue, avviando così il processo di avvio del Sistema Operativo.</p>
+
+ <img src="https://www.diskpart.com/it/resource/images/how-to-use-Disk-Management/interface.gif">
+
+<h1>PARTIZIONAMENTO DELL HARD DISK </h1>
+
+  <p>Un disco rigido può essere suddiviso in partizioni, gestite in modo indipendente dal Sistema Operativo. Anche se il disco è utilizzato come un'unica partizione, il partizionamento è sempre necessario. Durante la formattazione di una partizione, viene scelto il file system da utilizzare, come NTFS per Windows, FAT32 per la compatibilità con vari sistemi operativi, e ext4 per Linux. Le partizioni possono essere primarie o estese, quest'ultima suddivisibile in unità logiche. L'avvio dei sistemi Linux può avvenire sia da partizioni primarie sia da partizioni estese. La tabella delle partizioni nel Master Boot Record (MBR) contiene informazioni come lo stato, il tipo, l'indirizzo del primo e dell'ultimo settore della partizione, e la sua lunghezza. La dimensione massima di un disco rigido è determinata dalla dimensione dei settori e dalla lunghezza della partizione, che viene espressa in blocchi o settori. </p>
+
+ <img src="https://www.aranzulla.it/wp-content/contenuti/2021/01/97e91f8.jpg">
+ 
+<h1>ANALISI DEL MBR CON EDITOR ESADECIMALE</h1>
+
+  <p>Esistono numerosi editor esadecimali che consentono di leggere il contenuto della memoria del computer, come WinHex di X-Ways Software Technology AG. Questo editor, specifico per Windows, richiede privilegi di amministratore e consente di analizzare il contenuto del Master Boot Record (MBR) dell'hard disk. La Figura 10 mostra il primo settore dell'hard disk, evidenziando i 512 byte del MBR, i 64 byte della Partition Table e i 16 byte della prima entry della tabella delle partizioni. Il magic number 0x55AA indica la fine del MBR. Viene spiegato il significato dei termini little-endian e big-endian, utilizzati per l'ordine dei byte, e vengono menzionati anche per il formato delle date.</p>
+
+ <img src="https://th.bing.com/th/id/OIP.qs0ytDkRLU6wkBGvQp6bbQHaFi?w=266&h=199&c=7&r=0&o=5&pid=1.7">
+
+<h1>L AVVIO DEL SISTEMA OPERATIVO </h1>
+
+  <p>Una volta caricato il kernel del Sistema Operativo in memoria, il boot loader termina la sua esecuzione e il controllo passa al kernel che avvia il caricamento dei moduli necessari, iniziando con il file system. Il processo di avvio del Sistema Operativo è descritto in dettaglio nelle lezioni successive, per sistemi Windows e GNU/Linux. A volte è necessario installare più Sistemi Operativi sullo stesso computer, sia per testare nuove versioni sia per avere disponibili applicazioni specifiche. Questo può essere realizzato tramite il chainloading, che permette di caricare uno dopo l'altro i boot loader di diversi sistemi. Tuttavia, la configurazione multi-boot presenta alcuni svantaggi, come il rischio di perdere l'accesso a un Sistema Operativo in caso di problemi al boot sector. Per ovviare a questi problemi, la virtualizzazione è diventata sempre più diffusa, consentendo di far coesistere più Sistemi Operativi su un unico computer tramite macchine virtuali. Anche se la virtualizzazione richiede risorse hardware maggiori rispetto al dual-boot, è una soluzione più flessibile e meno rischiosa per sperimentare con diversi sistemi.</p>
+
+ <img src="https://th.bing.com/th/id/OIP.cH6chp-aUjehFF9iM6NeOQHaEV?rs=1&pid=ImgDetMain">
+
+<h1>AVVIO DI UN COMPUTER INTEL/AMD CON UEFI E GPT</h1>
+
+  <p>La maggior parte dei computer moderni utilizza UEFI (Unified Extensible Firmware Interface), un firmware progettato per migliorare l'interoperabilità del software e superare le limitazioni del BIOS. UEFI offre un'interfaccia standardizzata che gestisce la procedura di avvio del PC in modo più flessibile rispetto al BIOS, consentendo anche la compatibilità con i Sistemi Operativi più datati tramite le funzionalità BIOS legacy. Le specifiche di UEFI sono gestite da UEFI Forum Inc., un'organizzazione no-profit che promuove lo standard UEFI. Le caratteristiche principali di UEFI includono l'indipendenza dall'architettura hardware, la capacità di operare in modalità a 32 o 64 bit e il supporto per avviare il sistema da dischi con dimensioni superiori a 2 TiB tramite la tabella delle partizioni GPT.</p>
+
+ <img src="https://th.bing.com/th/id/OIP.mOkPlTGlqe0XkQI94z0o4AHaEK?w=207&h=180&c=7&r=0&o=5&pid=1.7">
+
+<h1>LE SPECIFICHE STANDARD DI UEFI E LE CARATTERISTICHE PRINCIPALI </h1>
+
+  <p>Le specifiche di UEFI si basano su EFI 1.0 di Intel® e sono gestite da UEFI Forum. La prima specifica, UEFI 2.0, è stata rilasciata nel 2006, segnando l'inizio dell'adozione di UEFI nei firmware. A partire dal 2011, tutte le schede madri Intel® e AMD includono un BIOS con supporto UEFI. La specifica più recente, UEFI 2.8, è stata rilasciata a marzo 2019. Le caratteristiche principali di UEFI includono un'interfaccia grafica, diagnostica avanzata, anti-virus integrato, accesso a Internet per il supporto tecnico, aggiornamenti live, opzioni di sicurezza e supporto per hard disk con capacità superiori a 2 TiB. UEFI consente anche il backup dell'hard disk senza coinvolgere il Sistema Operativo.</p>
+
+ <img src="https://th.bing.com/th/id/R.1ed90d32f6c6bf1a211675962df5844b?rik=c3%2bbQImQW2OgIA&riu=http%3a%2f%2fmygaming.co.za%2fnews%2fwp-content%2fuploads%2f2013%2f05%2fGigabyte-UEFI-DualBIOS.jpeg&ehk=qqYBPPbeGTw5nnxVgbUAZtbQ8jH3Vh3EZ%2fislnJ0GVo%3d&risl=&pid=ImgRaw&r=0" width="300" height="200" >
+
+ <h1>PARTIZIONAMENTO DELL'HARD DISK CON GPT</h1>
+
+  <p>Con l'avvento delle architetture a 64 bit, è emersa la necessità di un nuovo schema di partizionamento per gli hard disk, chiamato GUID Partition Table (GPT), incluso nello standard UEFI. Rispetto al tradizionale Master Boot Record (MBR), il GPT offre maggiore flessibilità e risolve alcune limitazioni cruciali, come il numero di partizioni primarie, i problemi di integrità dei dati e la dimensione massima del disco. Il GPT consente la creazione di un elevato numero di partizioni, memorizza i dati due volte per garantire la sicurezza e supporta dimensioni massime del disco fino a 8 ZiB.</p>
+
+ <img src="https://th.bing.com/th/id/OIP.5lz_i_hXXGDFZDOR9z86UwHaD4?rs=1&pid=ImgDetMain">
+
+<h1>STRUTTURA DELLA GPT</h1>
+
+  <p>La struttura della GPT è composta da diversi elementi:</p>
+  <ul>
+    <li>
+      <strong>Protective MBR:</strong> Situato nel primo settore dell'hard disk, contiene una sola entry nella Partition Table che indica la presenza di un disco GPT e permette il bootstrap da BIOS tradizionali. Il settore successivo contiene l'header di GPT.
+    </li>
+    <li>
+      <strong>Primary GPT:</strong> Questa sezione comprende l'header GPT, che definisce i blocchi usabili sul disco e contiene un codice di validazione per il controllo dell'integrità dei dati. Seguono le partition entry, una per ogni partizione, e le partizioni stesse.
+    </li>
+    <li>
+      <strong>Secondary (Backup) GPT:</strong> Si trova alla fine del disco e contiene una copia dell'header GPT primario e delle partition entry. Questa sezione serve come backup in caso di danneggiamento dell'header primario o delle partition entry primarie.
+    </li>
+  </ul>
+
+ <img src="https://th.bing.com/th/id/OIP.v96Fn7uJ7Ms26v8RKUO7DAHaER?rs=1&pid=ImgDetMain">
+
+<h1>AVVIO Windows.  L'architettura per il boot di Windows</h1>
+
+  <p>L'architettura di avvio di Windows, introdotta da Vista, comprende tre principali applicazioni: il gestore di avvio di Windows (Windows Boot Manager), il caricatore del sistema operativo Windows (Windows operating system loader), e il ripristino del sistema Windows (Windows resume loader). Il gestore di avvio è il primo ad essere eseguito e avvia il processo winload.exe o winresume.exe. Il sistema utilizza il file di configurazione BCD (Boot Configuration Data) anziché il tradizionale boot.ini, offrendo un'interfaccia comune per tutti i sistemi Windows. Il BCD store contiene le informazioni di configurazione e può essere bloccato per evitare accessi indesiderati. Durante la sospensione del sistema, le informazioni sullo stato vengono memorizzate nel BCD e nel file hiberfil.sys per il ripristino successivo. La sequenza di avvio di Windows è rappresentata in modo semplificato nella FIGURA 14, con i processi chiave evidenziati in blu.</p>
+
+ <img src="https://th.bing.com/th/id/OIP.3Ph36YapTWxWUfsQX4NA9QHaHa?rs=1&pid=ImgDetMain" width="250" height="200">
+
+<h1>Modificare le opzioni di boot e multi-boot Windows </h1>
+
+  <p>Il BCD (Boot Configuration Data) di Windows, a differenza del boot.ini utilizzato in precedenza, è memorizzato in formato binario e non può essere modificato con un normale editor testuale. Le tre principali modalità di accesso al BCD store sono: tramite interfaccia utente utilizzando l'applicazione System Configuration (MSConfig.exe), tramite editor utilizzando l'applicazione BCDEdit (BCDEdit.exe) che fornisce un accesso completo ai dati BCD tramite riga di comando, e tramite programma utilizzando l'interfaccia Windows Management Instrument (WMI) e il provider BCD WMI che consente di gestire i BCD store da codice. In caso di multi-boot, il Windows Boot Manager visualizza un menu di avvio in cui è possibile selezionare il Sistema Operativo desiderato, caricando poi il boot loader corrispondente con i parametri di configurazione memorizzati nel BCD.</p>
+
+ <img src="https://preview.redd.it/b4b6q45en3971.png?auto=webp&s=7e53c2df9b6681f60e25cbf48eee37221c43a4df"  width="300" height="250">
+
+<h1>AVVIO DEL SISTEMA OPERATIVO GNU/LINUX. ARCHITETTURA</h1>
+
+  <p>Il boot loader di Linux, come GRUB, offre maggiore flessibilità rispetto a quello di Windows nell'avviare il kernel del Sistema Operativo. Esistono due possibili percorsi di boot: il percorso A (chainloading) in cui il BIOS esegue il codice del MBR e trova il kernel da caricare tramite il boot sector della partizione di avvio, e il percorso B (diretto) in cui il primary boot loader localizza e carica direttamente il kernel in memoria. GRUB è il boot loader più utilizzato, soprattutto la versione GRUB2, mentre LILO è una precedente opzione, ora meno diffusa. GRUB carica il kernel Linux in memoria e lo avvia, e per accedere al suo menu è necessario premere ESC o SHIFT subito dopo l'accensione del computer, a seconda del tipo di firmware utilizzato (UEFI o BIOS).</p>
+
+ <img src="https://th.bing.com/th/id/OIP.jgo13YsIO3wlCmvsQDK6igHaEP?rs=1&pid=ImgDetMain">
+
 </head>
+</body>
 </html>
-</p>
-</br>
+
