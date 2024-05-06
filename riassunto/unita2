@@ -1,2 +1,30 @@
 <!DOCTYPE html>
 <html>
+
+  <h2>Indice UNITA 2</h2>
+
+<ul>                  
+                                  
+                                     <li>AVVIO DI UN COMPUTER INTEL/AMD</li> 
+                                       <li>BASIC INPUT OUTPUT SYSTEM BIOS</li> 
+                                         <li> BIOS E CMOS</li> 
+                                           <li>AVVIO DEL COMPUTER</li>          
+                                             <li>AGGIORNAMENTO DEL BIOS</li> 
+                                               <li>AGGIORNAMENTO DEL BIOS</li> 
+                                                 <li>LE FASI DEL PROCESSO DELL AVVIO DI UN COMPUTER</li> 
+                                                   <li>I MODI DI OPERARE DELLA CPU DURANTE L'AVVIO DEL COMPUTER</li> 
+                                                     <li>BOOTSTRAP DA DISCO E GESTIONE DELLE PARTIZIONI</li> 
+                                                       <li>PARTIZIONAMENTO DELL HARD DISK</li> 
+                                                          <li>ANALISI DEL MBR CON EDITOR ESADECIMALE</li> 
+                                                            <li>L AVVIO DEL SISTEMA OPERATIVO</li> 
+                                                               <li>AVVIO DI UN COMPUTER INTEL/AMD CON UEFI E GPT</li> 
+                                                                  <li>LE SPECIFICHE STANDARD DI UEFI E LE CARATTERISTICHE PRINCIPALI</li> 
+                                                                     <li>PARTIZIONAMENTO DELL'HARD DISK CON GPT</li> 
+                                                                        <li>STRUTTURA DELLA GPT</li> 
+                                                                           <li>AVVIO Windows. L'architettura per il boot di Windows</li> 
+                                                                              <li>Modificare le opzioni di boot e multi-boot Windows</li> 
+                                                                                <li>AVVIO DEL SISTEMA OPERATIVO GNU/LINUX. ARCHITETTURA</li> 
+
+
+
+ </ul> 
