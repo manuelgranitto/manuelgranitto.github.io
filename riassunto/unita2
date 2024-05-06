@@ -29,7 +29,16 @@
 
  </ul> 
 
+<head>
+    <title>riassunto prima e seconda unita manuel granitto</title> 
+  <style>
+  body {background-color: powderblue;}
+  h1 {color: green;}
+  p {color: SlateBlue ;}
+</style>         
+
 <h1 style="border:2px solid DodgerBlue;">UNITA 2 </h1>
+
 
  <h1>AVVIO DI UN COMPUTER INTEL/AMD</h1>
     <p>Il paragrafo descrive il processo di avvio di un computer con processore Intel o simile, iniziando con il BIOS o UEFI, il firmware che gestisce l'avvio. Questo firmware si occupa di controllare l'hardware, inizializzare le periferiche, cercare il sistema operativo e avviare le funzioni base del kernel. Si menziona anche la differenza tra il firmware nei computer e quello nei dispositivi Android, e si chiarisce che le procedure descritte si applicano sia a Windows che a Linux. Le lezioni successive approfondiranno i processi di avvio e installazione del sistema operativo, con riferimento a Windows 10 e Ubuntu 20.04 LTS.</p>
