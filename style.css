@@ -1,1 +1,94 @@
+.button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5rem 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  outline: none;
+  border: none;
+  user-select: none;
+  white-space: nowrap;
+}
 
+/* Stili per il pulsante blu */
+.button-blue {
+  background-color: #3490dc;
+  color: #fff;
+}
+
+.button-blue:hover {
+  background-color: #2e86de;
+}
+
+.button-blue:focus {
+  background-color: #2e86de;
+  box-shadow: 0 0 0 0.2rem rgba(52, 144, 220, 0.5);
+}
+
+/* Stili per il pulsante verde */
+.button-green {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.button-green:hover {
+  background-color: #45a049;
+}
+
+.button-green:focus {
+  background-color: #45a049;
+  box-shadow: 0 0 0 0.2rem rgba(76, 175, 80, 0.5);
+}
+
+/* Stili per il pulsante giallo */
+.button-yellow {
+  background-color: #ffeb3b;
+  color: #000;
+}
+
+.button-yellow:hover {
+  background-color: #fdd835;
+}
+
+.button-yellow:focus {
+  background-color: #fdd835;
+  box-shadow: 0 0 0 0.2rem rgba(255, 235, 59, 0.5);
+}
+
+/* Stili per il pulsante rosso */
+.button-red {
+  background-color: #f44336;
+  color: #fff;
+}
+
+.button-red:hover {
+  background-color: #e53935;
+}
+
+.button-red:focus {
+  background-color: #e53935;
+  box-shadow: 0 0 0 0.2rem rgba(244, 67, 54, 0.5);
+}
+
+/* Stili per il pulsante viola */
+.button-purple {
+  background-color: #9c27b0;
+  color: #fff;
+}
+
+.button-purple:hover {
+  background-color: #8e24aa;
+}
+
+.button-purple:focus {
+  background-color: #8e24aa;
+  box-shadow: 0 0 0 0.2rem rgba(156, 39, 176, 0.5);
+}
