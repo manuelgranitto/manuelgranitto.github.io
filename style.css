@@ -1,1 +1,52 @@
+Certo, ecco un esempio di file CSS che puoi utilizzare per lo styling della pagina HTML:
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
 
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+}
+
+header h1 {
+    margin: 0;
+    text-align: center;
+}
+
+main {
+    padding: 2rem;
+}
+
+main h2 {
+    color: #333;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+main p {
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    margin-bottom: 0.5rem;
+}
+
+ul li a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    color: #0069d9;
+}
