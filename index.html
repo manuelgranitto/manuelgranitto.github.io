@@ -1,11 +1,81 @@
 <!DOCTYPE html>
-<html> 
+<html lang="en">
 <head>
-  <title>Presentazione Manuel</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Website</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwindcss.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/scrollreveal/dist/scrollreveal.min.css">
+  <link rel="stylesheet" href="style.css">
 </head>
-  <h1>Presentazione</h1>
-<p>Mi chiamo Manuel granitto ho 16 anni e frequento l'istituto Enzo ferrari hertz </p>
+<body class="bg-gray-100 font-mono">
+  <header class="bg-gray-800 text-white py-4 shadow-lg">
+    <div class="container mx-auto flex justify-between items-center">
+      <a href="#" class="text-2xl font-bold">My Website</a>
+      <nav>
+        <ul class="flex space-x-4">
+          <li><a href="#finale" class="hover:text-gray-400">Finale</a></li>
+          <li><a href="#von-neumann" class="hover:text-gray-400">Modello Von Neumann</a></li>
+          <li><a href="#memorie" class="hover:text-gray-400">Memorie</a></li>
+          <li><a href="#riassunto" class="hover:text-gray-400">Riassunto</a></li>
+          <li><a href="#assembly" class="hover:text-gray-400">Assembly</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-<a href="riassunto/unita1.html">Unità 1 - La macchina di Von Neumann</a><br>
-<a href="riassunto/unita1.html">Unità 2 - Il sistema operativo</a><br>
+  <main>
+    <section id="finale" class="py-20 bg-gradient-to-r from-indigo-500 to-pink-500 text-white">
+      <div class="container mx-auto px-4 md:px-0">
+        <h2 class="text-4xl font-bold mb-8">Finale</h2>
+        <p class="text-lg mb-8">Descrizione del Finale</p>
+        <a href="#" class="bg-gray-800 hover:bg-gray-700 text-white py-2 px-4 rounded-md">Leggi di più</a>
+      </div>
+    </section>
+
+    <section id="von-neumann" class="py-20 bg-gradient-to-r from-green-500 to-blue-500 text-white">
+      <div class="container mx-auto px-4 md:px-0">
+        <h2 class="text-4xl font-bold mb-8">Modello Von Neumann</h2>
+        <p class="text-lg mb-8">Descrizione del Modello Von Neumann</p>
+        <a href="#" class="bg-gray-800 hover:bg-gray-700 text-white py-2 px-4 rounded-md">Leggi di più</a>
+      </div>
+    </section>
+
+    <section id="memorie" class="py-20 bg-gradient-to-r from-yellow-500 to-orange-500 text-white">
+      <div class="container mx-auto px-4 md:px-0">
+        <h2 class="text-4xl font-bold mb-8">Memorie</h2>
+        <p class="text-lg mb-8">Descrizione delle Memorie</p>
+        <a href="#" class="bg-gray-800 hover:bg-gray-700 text-white py-2 px-4 rounded-md">Leggi di più</a>
+      </div>
+    </section>
+
+    <section id="riassunto" class="py-20 bg-gradient-to-r from-red-500 to-purple-500 text-white">
+      <div class="container mx-auto px-4 md:px-0">
+        <h2 class="text-4xl font-bold mb-8">Riassunto</h2>
+        <p class="text-lg mb-8">Descrizione del Riassunto</p>
+        <a href="#" class="bg-gray-800 hover:bg-gray-700 text-white py-2 px-4 rounded-md">Leggi di più</a>
+      </div>
+    </section>
+
+    <section id="assembly" class="py-20 bg-gradient-to-r from-teal-500 to-cyan-500 text-white">
+      <div class="container mx-auto px-4 md:px-0">
+        <h2 class="text-4xl font-bold mb-8">Assembly</h2>
+        <p class="text-lg mb-8">Descrizione dell'Assembly</p>
+        <a href="#" class="bg-gray-800 hover:bg-gray-700 text-white py-2 px-4 rounded-md">Leggi di più</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-gray-800 text-white py-4 shadow-lg">
+    <div class="container mx-auto text-center">
+      &copy; 2023 My Website. All rights reserved.
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+  <script src="script.js"></script>
+</body>
 </html>
