@@ -1,64 +1,130 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>My Page</title>
-</head>
-<body>
-  <header>
-    <h1>My Page</h1>
-  </header>
-  <main>
-    <section>
-      <h2>Sezione 1</h2>
-      <p>Questa è la prima sezione.</p>
-    </section>
-    <section>
-      <h2>Sezione 2</h2>
-      <p>Questa è la seconda sezione.</p>
-    </section>
-  </main>
-  <footer>
-    <p>Copyright © 2023</p>
-  </footer>
-</body>
-</html>
-/* style.css */
 body {
-  font-family: Arial, sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
+  font-family: 'Roboto', sans-serif;
 }
 
+/* Stili per il header */
 header {
-  background-color: #333;
-  padding: 1rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  transition: background-color 0.3s ease;
 }
 
-header h1 {
-  color: #fff;
-  margin: 0;
+header.scrolled {
+  background-color: rgba(31, 41, 55, 0.9);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
 }
 
-main {
-  padding: 2rem;
+header nav ul li a {
+  position: relative;
 }
 
-section {
+header nav ul li a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background-color: #cbd5e0;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -4px;
+  transition: width 0.3s ease;
+}
+
+header nav ul li a:hover::after {
+  width: 100%;
+}
+
+/* Stili per la sezione hero */
+#hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+#hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('hero-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  filter: brightness(0.5);
+  z-index: -1;
+}
+
+#hero h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  animation: fadeIn 1s ease-in-out;
+}
+
+#hero p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+#hero .buttons {
+  animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Stili per le sezioni dei compiti */
+.task-section {
+  padding: 4rem 0;
+  position: relative;
+}
+
+.task-section h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.task-section p {
+  font-size: 1.25rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.task-section .task-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.task-section .task-content img {
+  max-width: 100%;
+  height: auto;
   margin-bottom: 2rem;
 }
 
-section h2 {
-  font-size: 1.5rem;
-  margin-top: 0;
-  margin-bottom: 0.5rem;
-}
-
+/* Stili per il footer */
 footer {
-  background-color: #333;
-  padding: 1rem;
-  color: #fff;
+  padding: 2rem 0;
   text-align: center;
 }
