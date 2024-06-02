@@ -1,1 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>My Page</title>
+</head>
+<body>
+  <header>
+    <h1>My Page</h1>
+  </header>
+  <main>
+    <section>
+      <h2>Sezione 1</h2>
+      <p>Questa è la prima sezione.</p>
+    </section>
+    <section>
+      <h2>Sezione 2</h2>
+      <p>Questa è la seconda sezione.</p>
+    </section>
+  </main>
+  <footer>
+    <p>Copyright © 2023</p>
+  </footer>
+</body>
+</html>
+/* style.css */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
 
+header {
+  background-color: #333;
+  padding: 1rem;
+}
+
+header h1 {
+  color: #fff;
+  margin: 0;
+}
+
+main {
+  padding: 2rem;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+section h2 {
+  font-size: 1.5rem;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+footer {
+  background-color: #333;
+  padding: 1rem;
+  color: #fff;
+  text-align: center;
+}
